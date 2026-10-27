@@ -20,9 +20,9 @@ Use 240 mm nominal panel module pitch for a first prototype, vertical 2020 rails
 
 This 240 x 480 mm frame grid is a prototype geometry, not an approved structural support spacing. Wall-anchor spacing must be determined independently from the wall construction, rail profile, joint design and full loads. Larger profiles (2040 or 4040) are options for primary members or unavoidable long unsupported spans. Orient the deep dimension of a rectangular profile to resist the relevant bending direction. A large wall made of short supported bays is different from a 6 m unsupported beam.
 
-Mount the pegboard approximately 20 mm forward of the nearest frame/bracket obstruction, measured from the panel BACK. This is the initial hook-clearance test value, not a universal SKADIS clearance. Check both seated hooks and the full insertion/tilt/drop/removal envelope. A rail can lie behind a slot in front elevation without making that slot unusable if it is outside the hook envelope.
+Mount the pegboard approximately 10 mm forward of the nearest frame/bracket obstruction, measured from the panel BACK. The user selected this provisional hook-clearance value on 2026-10-27, replacing the initial 20 mm proposal. Physical testing is deferred; this is not a verified minimum or a universal SKADIS clearance. Check both seated hooks and the full insertion/tilt/drop/removal envelope. A rail can lie behind a slot in front elevation without making that slot unusable if it is outside the hook envelope.
 
-Depth budget for a coplanar 2020 grid: 5 mm panel + 20 mm clear hook cavity + 20 mm extrusion = 45 mm from the board face to the back of the extrusion. Add wall levelling/anchor clearance and the mosaic stand-off/face thickness separately. Brackets or bolt heads projecting in front of the extrusion reduce the cavity and must be included in the clearance model.
+Depth budget for a coplanar 2020 grid: 5 mm panel + 10 mm clear hook cavity + 20 mm extrusion = 35 mm from the board face to the back of the extrusion. Add wall levelling/anchor clearance and the mosaic stand-off/face thickness separately. Brackets or bolt heads projecting in front of the extrusion reduce the cavity and must be included in the clearance model.
 
 ## Visible shared mounting nodes
 
@@ -67,7 +67,7 @@ No anchor quantity, hardware purchase list or allowable installation load is est
 | slotEntryRadius | Trial 0.5 mm; compare with actual hooks before increasing |
 | frameProfile | Exact manufacturer profile, not generic interchangeable 2020 |
 | framePitchX, framePitchY | 240 / 480 mm prototype |
-| hookClearance | 20 mm starting cavity behind panel |
+| hookClearance | 10 mm provisional cavity behind panel; insertion/removal testing pending |
 | bracketKeepout, hookInsertionEnvelope | Actual component envelopes |
 | mountPattern | Shared corner nodes, configurable spacing only with support checks |
 | nodeReservedArea | Derived from real cap, screw, spacer, seat and tool geometry |
@@ -79,6 +79,6 @@ Next CAD prototype: 2 x 2 panels with two finished sides represented, one centra
 
 - [80/20 20-2020](https://8020.net/20-2020.html): 20 x 20 mm profile with four slots; compatible with its own 20-series fasteners; IX/IY 0.6826 cm4. Manufacturer lists panel racks/displays as applications. This is profile information, not approval of the proposed wall.
 - [MISUMI HFS5 20/40 mm profiles and hardware](https://sg.misumi-ec.com/pdf/fa/2013/p1839.pdf): 20 mm square, 6 mm slot family with M3/M4/M5 nut options, HFS5-2020 mass 0.5 kg/m and I=0.742*10^4 mm4; 2040/4040 alternatives and bracket types. Verify the current purchased SKU before detailed design.
-- [IKEA SKADIS pegboard](https://www.ikea.com/us/en/p/skadis-pegboard-white-10321618/): manufacturer product context and wall mounting hardware context. This source does not establish the proposed 20 mm cavity or custom system load capacity.
+- [IKEA SKADIS pegboard](https://www.ikea.com/us/en/p/skadis-pegboard-white-10321618/): manufacturer product context and wall mounting hardware context. This source does not establish the proposed 10 mm cavity or custom system load capacity.
 
 All dimensions and architecture choices not expressly attributed above are design proposals or arithmetic derived from the proposed layout. No third-party CAD was copied.
