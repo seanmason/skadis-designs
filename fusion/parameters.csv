@@ -1,0 +1,18 @@
+Name,Unit,Expression,Value,Comments,Favorite
+columns,,12,12,Integer 20 mm cells across; use even values 4 to 14,false
+rows,,12,12,Integer 20 mm cells high; use even values 4 to 14,false
+pitch,mm,20 mm,20.00,Dense lattice repeat; keep 20 for IKEA-compatible subset,false
+slotWidth,mm,5 mm,5.00,Nominal community-measured slot width; fit-test,false
+slotHeight,mm,15 mm,15.00,Retain full size slots,false
+boardThickness,mm,5 mm,5.00,Initial hook engagement thickness; fit-test,false
+panelWidth,mm,columns * pitch,240.00,"Derived panel width, do not scale in slicer",false
+panelHeight,mm,rows * pitch,240.00,Derived panel height,false
+pilotDiameter,mm,1.6 mm,1.60,"M2 thread-forming pilot, test before production",false
+pilotDepth,mm,4 mm,4.00,Blind from rear,false
+registerDiameter,mm,3.6 mm,3.60,Rear locating recess,false
+registerDepth,mm,0.8 mm,0.80,Rear locating recess depth,false
+bridgeThickness,mm,6 mm,6.00,Rear connector thickness,false
+bridgeWidth,mm,4.4 mm,4.40,Fits 5 mm lattice corridors,false
+pegDiameter,mm,3.2 mm,3.20,Locating peg: 0.2 mm radial clearance,false
+pegHeight,mm,0.6 mm,0.60,Locating peg: 0.2 mm depth clearance,false
+screwClearance,mm,2.2 mm,2.20,M2 screw clearance,false

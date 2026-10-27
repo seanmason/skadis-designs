@@ -1,0 +1,11 @@
+{
+  "date": "2026-10-27",
+  "method": "Binary STL triangle edge incidence, coordinates rounded to 0.00001 mm",
+  "results": [
+    {"file": "bridge-horizontal.stl", "triangles": 928, "nonmanifold_edges": 0, "bounds_mm": [[7.8,12.2],[-7.2,7.2],[-0.6,6.0]]},
+    {"file": "bridge-vertical.stl", "triangles": 852, "nonmanifold_edges": 0, "bounds_mm": [[-7.2,7.2],[-7.2,7.2],[-0.6,6.0]]},
+    {"file": "panel-240x240.stl", "triangles": 52092, "nonmanifold_edges": 0, "bounds_mm": [[0,240],[0,240],[0,5]]},
+    {"file": "panel-fit-coupon-80x80.stl", "triangles": 7388, "nonmanifold_edges": 0, "bounds_mm": [[0,80],[0,80],[0,5]]}
+  ],
+  "limits": "Checks closed edge incidence and millimeter bounds, not slicer behavior, physical fit, self-intersection or load capacity. Fusion assembly interference query returned no result object and is not counted as a passed interference test."
+}
