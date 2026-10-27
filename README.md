@@ -15,6 +15,7 @@ An original Autodesk Fusion parametric pegboard system for a future pixel-art in
 
 ## Files
 
+- [Next revision: finished edges and extrusion-frame proposal](docs/frame-architecture-v02.md) — requirements and concept only; v0.1 CAD is unchanged.
 - [Design decisions and limitations](docs/design-brief.md)
 - [MakerWorld research](docs/reference-designs.md)
 - [Printing and fit-test protocol](docs/print-and-test.md)
