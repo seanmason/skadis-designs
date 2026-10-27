@@ -1,0 +1,150 @@
+[
+  {
+    "configuration": "interior",
+    "edges_LRBT": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "checks": [
+      {
+        "healthy": true,
+        "fully_constrained_sketches": true,
+        "components": 1,
+        "timeline_features": 36,
+        "columns": 4,
+        "rows": 4,
+        "bounds_mm": [
+          79.8,
+          79.8,
+          5.0
+        ]
+      },
+      {
+        "healthy": true,
+        "fully_constrained_sketches": true,
+        "components": 1,
+        "timeline_features": 36,
+        "columns": 8,
+        "rows": 12,
+        "bounds_mm": [
+          159.8,
+          239.8,
+          5.0
+        ]
+      },
+      {
+        "healthy": true,
+        "fully_constrained_sketches": true,
+        "components": 1,
+        "timeline_features": 36,
+        "columns": 14,
+        "rows": 14,
+        "bounds_mm": [
+          279.8,
+          279.8,
+          5.0
+        ]
+      },
+      {
+        "healthy": true,
+        "fully_constrained_sketches": true,
+        "components": 1,
+        "timeline_features": 36,
+        "columns": 6,
+        "rows": 6,
+        "bounds_mm": [
+          119.8,
+          119.8,
+          5.0
+        ]
+      }
+    ]
+  },
+  {
+    "configuration": "left-edge",
+    "edges_LRBT": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "checks": [
+      {
+        "healthy": true,
+        "fully_constrained_sketches": true,
+        "components": 1,
+        "timeline_features": 33
+      }
+    ]
+  },
+  {
+    "configuration": "right-edge",
+    "edges_LRBT": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "checks": [
+      {
+        "healthy": true,
+        "fully_constrained_sketches": true,
+        "components": 1,
+        "timeline_features": 33
+      }
+    ]
+  },
+  {
+    "configuration": "bottom-edge",
+    "edges_LRBT": [
+      0,
+      0,
+      1,
+      0
+    ],
+    "checks": [
+      {
+        "healthy": true,
+        "fully_constrained_sketches": true,
+        "components": 1,
+        "timeline_features": 33
+      }
+    ]
+  },
+  {
+    "configuration": "top-edge",
+    "edges_LRBT": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "checks": [
+      {
+        "healthy": true,
+        "fully_constrained_sketches": true,
+        "components": 1,
+        "timeline_features": 33
+      }
+    ]
+  },
+  {
+    "configuration": "standalone",
+    "edges_LRBT": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "checks": [
+      {
+        "healthy": true,
+        "fully_constrained_sketches": true,
+        "components": 1,
+        "timeline_features": 25
+      }
+    ]
+  }
+]

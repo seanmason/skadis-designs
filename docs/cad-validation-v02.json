@@ -1,0 +1,88 @@
+[
+  {
+    "columns": 4,
+    "rows": 4,
+    "healthy": true,
+    "panels": [
+      {
+        "name": "Panel lower left",
+        "bounds_mm": [
+          79.8,
+          79.8,
+          5.0
+        ],
+        "volume_cm3": 25.575150406232936
+      },
+      {
+        "name": "Panel lower right",
+        "bounds_mm": [
+          79.8,
+          79.8,
+          5.0
+        ],
+        "volume_cm3": 25.575150936145732
+      },
+      {
+        "name": "Panel upper left",
+        "bounds_mm": [
+          79.8,
+          79.8,
+          5.0
+        ],
+        "volume_cm3": 25.575151159729163
+      },
+      {
+        "name": "Panel upper right",
+        "bounds_mm": [
+          79.8,
+          79.8,
+          5.0
+        ],
+        "volume_cm3": 25.575150991196956
+      }
+    ]
+  },
+  {
+    "columns": 6,
+    "rows": 6,
+    "healthy": true,
+    "panels": [
+      {
+        "name": "Panel lower left",
+        "bounds_mm": [
+          119.8,
+          119.8,
+          5.0
+        ],
+        "volume_cm3": 53.964174182823555
+      },
+      {
+        "name": "Panel lower right",
+        "bounds_mm": [
+          119.8,
+          119.8,
+          5.0
+        ],
+        "volume_cm3": 53.96417471273893
+      },
+      {
+        "name": "Panel upper left",
+        "bounds_mm": [
+          119.8,
+          119.8,
+          5.0
+        ],
+        "volume_cm3": 53.96417493632297
+      },
+      {
+        "name": "Panel upper right",
+        "bounds_mm": [
+          119.8,
+          119.8,
+          5.0
+        ],
+        "volume_cm3": 53.96417476779091
+      }
+    ]
+  }
+]

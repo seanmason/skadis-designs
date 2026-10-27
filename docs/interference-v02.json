@@ -1,0 +1,8 @@
+{
+  "method": "Temporary solid difference with positive and negative controls",
+  "components": 114,
+  "aabb_candidates": 160,
+  "collision_tolerance_mm3": 0.01,
+  "collisions": [],
+  "unresolved_operations": []
+}

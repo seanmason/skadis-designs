@@ -1,0 +1,31 @@
+Name,Unit,Expression,Value,Comments,Favorite
+columns,,6,6,Even integer 4..14; each cell is 20 mm,false
+rows,,6,6,Even integer 4..14,false
+pitch,mm,20 mm,20.00,Keep for dense SKADIS compatible lattice,false
+panelWidth,mm,columns * pitch,120.00,Nominal module pitch X,false
+panelHeight,mm,rows * pitch,120.00,Nominal module pitch Y,false
+seamGap,mm,0.2 mm,0.20,Physical envelope shrinks around fixed lattice,false
+boardThickness,mm,5 mm,5.00,Fit-test with real hooks,false
+slotWidth,mm,5 mm,5.00,Minimum throat width,false
+slotHeight,mm,15 mm,15.00,Minimum throat height,false
+entryRadius,mm,0.4 mm,0.40,Front slot and perimeter edge rounding,false
+cornerRadius,mm,6 mm,6.00,Plan-view panel corner rounding,false
+hookClearance,mm,10 mm,10.00,PROVISIONAL: board rear to front of extrusion,false
+frameZ,mm,boardThickness + hookClearance,15.00,Front extrusion datum,false
+mountInset,mm,12 mm,12.00,Exterior node inset from outside module edge,false
+mountBore,mm,8.4 mm,8.40,Clearance around 8 mm metal shoulder,false
+capDiameter,mm,18 mm,18.00,Visible decorative mounting disk,false
+capThickness,mm,2 mm,2.00,Metal clamping cap / washer,false
+seatThickness,mm,2 mm,2.00,Printed rear bearing washer,false
+screwDiameter,mm,5 mm,5.00,"Nominal M5 reference, threads omitted",false
+screwClearance,mm,5.5 mm,5.50,Cap and spacer bore,false
+keyWidth,mm,4 mm,4.00,Registration key corridor width,false
+keyThickness,mm,2 mm,2.00,Rear removable key body,false
+keyPegDiameter,mm,3 mm,3.00,Rear locating peg,false
+keySocketDiameter,mm,3.4 mm,3.40,0.2 mm radial starting fit,false
+keyPegHeight,mm,0.8 mm,0.80,Peg penetration,false
+keySocketDepth,mm,1 mm,1.00,Blind locating pocket,false
+panelLeft,,0,0,0 internal / 1 finished; full cell border and inset mounting,false
+panelRight,,0,0,0 internal / 1 finished; full cell border and inset mounting,false
+panelBottom,,0,0,0 internal / 1 finished; full cell border and inset mounting,false
+panelTop,,0,0,0 internal / 1 finished; full cell border and inset mounting,false

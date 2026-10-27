@@ -1,0 +1,145 @@
+[
+  {
+    "file": "alignment-key-horizontal.stl",
+    "triangles": 468,
+    "closed_edge_incidence": true,
+    "bounds_mm": [
+      4.0,
+      14.0,
+      2.8
+    ],
+    "volume_mm3": 123.287
+  },
+  {
+    "file": "alignment-key-vertical.stl",
+    "triangles": 420,
+    "closed_edge_incidence": true,
+    "bounds_mm": [
+      14.0,
+      14.0,
+      2.8
+    ],
+    "volume_mm3": 203.279
+  },
+  {
+    "file": "ll-panel-120.stl",
+    "triangles": 57638,
+    "closed_edge_incidence": true,
+    "bounds_mm": [
+      119.8,
+      119.8,
+      5.0
+    ],
+    "volume_mm3": 53989.714
+  },
+  {
+    "file": "lr-panel-120.stl",
+    "triangles": 57638,
+    "closed_edge_incidence": true,
+    "bounds_mm": [
+      119.8,
+      119.8,
+      5.0
+    ],
+    "volume_mm3": 53989.703
+  },
+  {
+    "file": "panel-bottom-edge-120.stl",
+    "triangles": 67874,
+    "closed_edge_incidence": true,
+    "bounds_mm": [
+      119.8,
+      119.8,
+      5.0
+    ],
+    "volume_mm3": 50570.617
+  },
+  {
+    "file": "panel-interior-120.stl",
+    "triangles": 77320,
+    "closed_edge_incidence": true,
+    "bounds_mm": [
+      119.8,
+      119.8,
+      5.0
+    ],
+    "volume_mm3": 47398.288
+  },
+  {
+    "file": "panel-left-edge-120.stl",
+    "triangles": 65248,
+    "closed_edge_incidence": true,
+    "bounds_mm": [
+      119.8,
+      119.8,
+      5.0
+    ],
+    "volume_mm3": 51451.059
+  },
+  {
+    "file": "panel-right-edge-120.stl",
+    "triangles": 65248,
+    "closed_edge_incidence": true,
+    "bounds_mm": [
+      119.8,
+      119.8,
+      5.0
+    ],
+    "volume_mm3": 51451.059
+  },
+  {
+    "file": "panel-standalone-120.stl",
+    "triangles": 41628,
+    "closed_edge_incidence": true,
+    "bounds_mm": [
+      119.8,
+      119.8,
+      5.0
+    ],
+    "volume_mm3": 59313.791
+  },
+  {
+    "file": "panel-top-edge-120.stl",
+    "triangles": 67874,
+    "closed_edge_incidence": true,
+    "bounds_mm": [
+      119.8,
+      119.8,
+      5.0
+    ],
+    "volume_mm3": 50570.617
+  },
+  {
+    "file": "rear-bearing-seat.stl",
+    "triangles": 708,
+    "closed_edge_incidence": true,
+    "bounds_mm": [
+      17.996,
+      17.998,
+      2.0
+    ],
+    "volume_mm3": 397.94
+  },
+  {
+    "file": "ul-panel-120.stl",
+    "triangles": 57638,
+    "closed_edge_incidence": true,
+    "bounds_mm": [
+      119.8,
+      119.8,
+      5.0
+    ],
+    "volume_mm3": 53989.702
+  },
+  {
+    "file": "ur-panel-120.stl",
+    "triangles": 57638,
+    "closed_edge_incidence": true,
+    "bounds_mm": [
+      119.8,
+      119.8,
+      5.0
+    ],
+    "volume_mm3": 53989.691
+  }
+]
