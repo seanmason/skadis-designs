@@ -1,0 +1,72 @@
+{
+  "health": {
+    "healthy": true,
+    "fully_constrained_sketches": true,
+    "components": 120,
+    "timeline_features": 1321
+  },
+  "profile_measurements_mm": {
+    "mouth": 6.28,
+    "cavity": 11,
+    "depth": 6.2,
+    "floor_estimate": 5.7
+  },
+  "static_candidates": 211,
+  "static_collisions": [],
+  "parts_behind_wall_datum": [],
+  "frame_hardware_in_hook_cavity": [],
+  "tool_envelopes": 52,
+  "tool_collisions": [],
+  "panel_withdrawal": [
+    {
+      "panel": "Panel lower left",
+      "sampled_forward_travel_mm": [
+        0.2,
+        0.5,
+        1,
+        2,
+        5,
+        10
+      ],
+      "hits": []
+    },
+    {
+      "panel": "Panel lower right",
+      "sampled_forward_travel_mm": [
+        0.2,
+        0.5,
+        1,
+        2,
+        5,
+        10
+      ],
+      "hits": []
+    },
+    {
+      "panel": "Panel upper left",
+      "sampled_forward_travel_mm": [
+        0.2,
+        0.5,
+        1,
+        2,
+        5,
+        10
+      ],
+      "hits": []
+    },
+    {
+      "panel": "Panel upper right",
+      "sampled_forward_travel_mm": [
+        0.2,
+        0.5,
+        1,
+        2,
+        5,
+        10
+      ],
+      "hits": []
+    }
+  ],
+  "nominal_face_to_wall_mm": 35.0,
+  "physical_fit_verified": false
+}

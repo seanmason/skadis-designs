@@ -1,0 +1,18 @@
+[
+  {
+    "healthy": true,
+    "fully_constrained_sketches": true,
+    "components": 120,
+    "timeline_features": 1321,
+    "columns": 4,
+    "rows": 4
+  },
+  {
+    "healthy": true,
+    "fully_constrained_sketches": true,
+    "components": 120,
+    "timeline_features": 1321,
+    "columns": 6,
+    "rows": 6
+  }
+]

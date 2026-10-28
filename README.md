@@ -2,9 +2,20 @@
 
 An original Autodesk Fusion parametric pegboard system for a future pixel-art installation, printed on a Bambu Lab H2D.
 
-**Status: v0.2 frame-mounted CAD prototype. CAD validation is not physical validation.** No installation load rating, print-fit result, or universal IKEA accessory compatibility is claimed.
+**Status: v0.3 flush-wall CAD prototype. CAD validation is not physical validation.** No installation load rating, print-fit result, or universal IKEA accessory compatibility is claimed.
 
-## v0.2 frame-mounted system
+## v0.3 flush-wall revision
+
+- [Assembly review, measured profile, hardware cautions and installation sequence](docs/assembly-review-v03.md)
+- [Parametric Fusion generator](fusion/FrameSystemV03.py)
+- [Native Fusion assembly](models/v03/frame-assembly-v03.f3d) and [assembly STEP](models/v03/frame-assembly-v03.step)
+- [Panel library, printable parts and metal reference parts](models/v03/)
+- [Bare frame](previews/v03-bare-frame.png), [front](previews/v03-front.png), [rear](previews/v03-rear.png) and [side](previews/v03-side.png) previews
+- [120 mm clearance checks](docs/validation-v03.json), [80 mm clearance checks](docs/validation-v03-80.json) and [native resize checks](docs/resize-validation-v03.json)
+
+This revision removes the designed gap behind the extrusion, keeps the provisional 10 mm hook cavity, and replaces rear bridges with shared locating seats so panels can withdraw forward independently. Side-mounted metal angles and wall tabs are accessible through the open frame bays. The extrusion approximation uses the user's updated measurements, including its narrowing inner cavity. Metal nut fit remains unverified; the failed rectangular carriers from the separate purifier project are not used as structural hardware.
+
+## Archived v0.2 frame-mounted system
 
 - [Native parametric Fusion assembly](models/v02/frame-assembly-v02.f3d): four panels, removable registration keys, nine visible shared mounting nodes and recessed 2020 frame.
 - [Design, parameters, hardware and assembly notes](docs/cad-v02.md)

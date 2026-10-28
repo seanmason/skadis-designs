@@ -1,0 +1,69 @@
+Name,Unit,Expression,Value,Comments,Favorite
+columns,,6,6,Even integer 4..14; each cell is 20 mm,false
+rows,,6,6,Even integer 4..14,false
+pitch,mm,20 mm,20.00,Keep for dense SKADIS compatible lattice,false
+panelWidth,mm,columns * pitch,120.00,Nominal module pitch X,false
+panelHeight,mm,rows * pitch,120.00,Nominal module pitch Y,false
+seamGap,mm,0.2 mm,0.20,Physical envelope shrinks around fixed lattice,false
+boardThickness,mm,5 mm,5.00,Fit-test with real hooks,false
+slotWidth,mm,5 mm,5.00,Minimum throat width,false
+slotHeight,mm,15 mm,15.00,Minimum throat height,false
+entryRadius,mm,0.4 mm,0.40,Front slot and perimeter edge rounding,false
+cornerRadius,mm,6 mm,6.00,Plan-view panel corner rounding,false
+hookClearance,mm,10 mm,10.00,PROVISIONAL: board rear to front of extrusion,false
+frameZ,mm,boardThickness + hookClearance,15.00,Front extrusion datum,false
+mountInset,mm,12 mm,12.00,Exterior node inset from outside module edge,false
+mountBore,mm,8.4 mm,8.40,Clearance around 8 mm metal shoulder,false
+capDiameter,mm,18 mm,18.00,Visible decorative mounting disk,false
+capThickness,mm,5 mm,5.00,Metal clamping cap / washer,false
+seatThickness,mm,2 mm,2.00,Printed rear bearing washer,false
+screwDiameter,mm,5 mm,5.00,"Nominal M5 reference, threads omitted",false
+screwClearance,mm,5.5 mm,5.50,Cap and spacer bore,false
+keyWidth,mm,4 mm,4.00,Registration key corridor width,false
+keyThickness,mm,2 mm,2.00,Rear removable key body,false
+keyPegDiameter,mm,3 mm,3.00,Rear locating peg,false
+keySocketDiameter,mm,3.4 mm,3.40,0.2 mm radial starting fit,false
+keyPegHeight,mm,0.8 mm,0.80,Peg penetration,false
+keySocketDepth,mm,1 mm,1.00,Blind locating pocket,false
+profileMouth,mm,6.28 mm,6.28,User measured mouth,false
+profileCavity,mm,11 mm,11.00,User measured widest cavity,false
+profileDepth,mm,6.2 mm,6.20,User measured face-to-floor depth,false
+profileFloor,mm,5.7 mm,5.70,"User estimate, lower confidence",false
+profileLip,mm,1.5 mm,1.50,Unmeasured; tentative comparable catalog value,false
+profileTaperStart,mm,profileDepth - ( profileCavity - profileFloor ) / 2,3.55,Assumed 45-degree inner slopes,false
+profileBore,mm,5 mm,5.00,"Unmeasured central bore, reference only",false
+nutWidth,mm,8.8 mm,8.80,"Provisional low-profile METAL T-nut envelope, not old rectangular carrier",false
+nutLength,mm,12 mm,12.00,End-loaded anti-rotation metal nut envelope,false
+nutThickness,mm,2.7 mm,2.70,Thin nut reference; fit/load still unverified,false
+jointLeg,mm,18 mm,18.00,In-bay angle footprint,false
+jointThickness,mm,3 mm,3.00,Metal bracket thickness,false
+jointDepth,mm,16 mm,16.00,Bracket depth within 20 mm rail,false
+sideScrewLength,mm,8 mm,8.00,M5x8 reference; check against actual bracket and nut,false
+registerPin,mm,2 mm,2.00,Node-seat locating pins,false
+registerSocket,mm,2.4 mm,2.40,Starting printed locating clearance,false
+registerPinHeight,mm,0.8 mm,0.80,Pin into rear socket,false
+registerSocketDepth,mm,1 mm,1.00,Blind panel socket,false
+registerOffset,mm,5 mm,5.00,Four pegs at node +/- offset,false
+wallTabHeight,mm,24 mm,24.00,Tab along extrusion,false
+wallTabReach,mm,22 mm,22.00,Tab into open bay,false
+wallAnchorClearance,mm,6.5 mm,6.50,Placeholder wall anchor interface,false
+wallShim,mm,0 mm,0.00,Only actual leveling shims; no designed rear air gap,false
+wallDriverDiameter,mm,12 mm,12.00,Clear tool envelope in open bays,false
+keyDriverDiameter,mm,5 mm,5.00,Short hex-key working-leg envelope,false
+keyDriverReach,mm,20 mm,20.00,Short hex-key working-leg reach,false
+llLeft,,1,1,0 internal / 1 finished; full cell border and inset mounting,false
+llRight,,0,0,0 internal / 1 finished; full cell border and inset mounting,false
+llBottom,,1,1,0 internal / 1 finished; full cell border and inset mounting,false
+llTop,,0,0,0 internal / 1 finished; full cell border and inset mounting,false
+lrLeft,,0,0,0 internal / 1 finished; full cell border and inset mounting,false
+lrRight,,1,1,0 internal / 1 finished; full cell border and inset mounting,false
+lrBottom,,1,1,0 internal / 1 finished; full cell border and inset mounting,false
+lrTop,,0,0,0 internal / 1 finished; full cell border and inset mounting,false
+ulLeft,,1,1,0 internal / 1 finished; full cell border and inset mounting,false
+ulRight,,0,0,0 internal / 1 finished; full cell border and inset mounting,false
+ulBottom,,0,0,0 internal / 1 finished; full cell border and inset mounting,false
+ulTop,,1,1,0 internal / 1 finished; full cell border and inset mounting,false
+urLeft,,0,0,0 internal / 1 finished; full cell border and inset mounting,false
+urRight,,1,1,0 internal / 1 finished; full cell border and inset mounting,false
+urBottom,,0,0,0 internal / 1 finished; full cell border and inset mounting,false
+urTop,,1,1,0 internal / 1 finished; full cell border and inset mounting,false
