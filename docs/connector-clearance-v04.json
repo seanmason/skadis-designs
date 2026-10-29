@@ -1,0 +1,25 @@
+{
+  "status": "clearance architecture study; retention and assembly release mechanism unresolved",
+  "old_front_projection_mm": 8.0,
+  "candidate_front_projection_mm": 0,
+  "provisional_hook_width_mm": 6.000000000000001,
+  "provisional_hook_lift_mm": 8.0,
+  "blade_to_hook_envelope_side_clearance_mm": 0.49999999999999933,
+  "hook_cavity_mm": 10.0,
+  "proposed_face_to_wall_mm": 39.0,
+  "holes_per_120_panel": 66,
+  "notes": [
+    "No cap-node slot omissions",
+    "Finished top/bottom contain complete slots only",
+    "Outer border is narrower than v03 and needs edge-strength testing",
+    "Carriers/blades are space reservations, not printable approved mounts",
+    "Actual hook sweep and mosaic rear surface remain unmeasured"
+  ],
+  "health": {
+    "healthy": true,
+    "fully_constrained_sketches": true,
+    "components": 43,
+    "timeline_features": 231,
+    "timeline_groups": 0
+  }
+}
