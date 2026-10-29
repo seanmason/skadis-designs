@@ -6,7 +6,9 @@ ROOT=Path(__file__).resolve().parent
 out=ROOT/'infinite-skadis-metallic.mp4'
 working=ROOT/'infinite-skadis-metallic.working.mp4'
 assert all((ROOT/'frames'/f'{f:04d}.png').exists() for f in range(1,841))
-subprocess.run([imageio_ffmpeg.get_ffmpeg_exe(),'-y','-framerate','24','-i',str(ROOT/'frames/%04d.png'),'-c:v','libx264','-preset','slow','-crf','18','-pix_fmt','yuv420p','-movflags','+faststart',str(working)],check=True)
+with (ROOT/'ffmpeg.log').open('w') as log:
+    # Keep normal FFmpeg stderr progress out of PowerShell's error stream.
+    subprocess.run([imageio_ffmpeg.get_ffmpeg_exe(),'-y','-framerate','24','-i',str(ROOT/'frames/%04d.png'),'-c:v','libx264','-preset','slow','-crf','18','-pix_fmt','yuv420p','-movflags','+faststart',str(working)],check=True,stdout=log,stderr=subprocess.STDOUT)
 reader=imageio_ffmpeg.read_frames(str(working),pix_fmt='rgb24');meta=next(reader)
 sheet=Image.new('RGB',(1280,1800));n=0
 for count,data in enumerate(reader,1):

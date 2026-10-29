@@ -1,0 +1,11 @@
+{
+  "decoded_frames": 840,
+  "duration_s": 35.0,
+  "dimensions": [
+    1920,
+    1080
+  ],
+  "fps": 24.0,
+  "bytes": 36754316,
+  "status": "encoded and decoded successfully; ten decoded contact-sheet frames visually reviewed"
+}
