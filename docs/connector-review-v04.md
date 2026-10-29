@@ -27,7 +27,7 @@ Only 4 mm-wide continuous support corridors remain between those envelopes. A 3 
 
 Small flush M2 screws were considered. Manufacturer dimensions show approximately 4.09 mm actual head diameter for an ISO 10642 M2 example. Allowing a printable countersink and neighboring slot entrance radii makes placement in the continuous web tight, and a coaxial rear post/insert introduces further interference. A head can fit a staggered pocket while its support blocks hook travel. This option is not accepted without a complete interface check. [Würth M2 example](https://eshop.wuerth.de/Countersunk-screw-with-hexagon-socket-head-ISO-10642-steel-109-plain-SCR-CS-ISO10642-0109-HS15-M2X4/00892%20%204.sku/en/US/EUR/).
 
-The preferred layout to develop is rear registration blades with positive retention carried farther back. Release should be accessible from the front after removing nearby art/hooks. The retention material, catch geometry, tool approach, removal sequence and load capacity have NOT been selected or validated. This avoids claiming that a friction fit or an unspecified snap is secure.
+The user subsequently confirmed that **small flush screw heads are acceptable between the slots**. The preferred retention approach is therefore front-accessible flush screws, with rear registration/supports arranged around the hook corridors. Concealed latches are a fallback if a screw arrangement cannot meet the clearance requirements. This preference does not resolve the coaxial screw/post interference described above: the full screw, threaded receiver, registration support and tool access must be checked together. Screw size, placement, receiver geometry and load capacity have NOT been selected or validated.
 
 The depth allowance becomes 5 mm panel + 10 mm hook cavity + 4 mm rear carrier + 20 mm extrusion = **39 mm face to wall**, with no designed air gap behind the extrusion. Keeping exactly 35 mm would require fitting the carriers within the profile or reducing the cavity; neither is assumed here.
 
@@ -45,8 +45,8 @@ The latest relevant message in **Design Quiet DIY Air Purifier** says the revise
 
 ## Next engineering checks
 
-- Resolve whether any small flush face fasteners are acceptable; user preference question is pending.
-- Design the positive retention/release mechanism in the reserved carrier space and prove removal with adjacent panels installed.
+- User preference resolved: small flush screw heads are acceptable. Heads must sit at or slightly below the board face, without large decorative caps or additional omitted slot positions.
+- Design the complete screw/receiver/support interface and prove front removal with adjacent panels installed. Retain the narrow rear support corridors; do not assume the previous round-post proposal now fits because flush heads are acceptable.
 - Test adjacent hooks and a pair of two-pixel tile hooks at regular slots, seams, support locations and rail-backed positions, including lift/tilt/removal.
 - Confirm front artwork clearance at all connector locations; keep the pegboard face unobstructed.
 - Validate printed blade fatigue/creep or specify a suitable metal spring/load member. The 3 mm envelope is a geometric allocation, not a strength result.
