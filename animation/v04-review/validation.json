@@ -1,0 +1,17 @@
+{
+  "panels": 24,
+  "components": 362,
+  "module_mm": 120,
+  "assembly_mm": [
+    720,
+    480
+  ],
+  "fps": 12,
+  "frames": 420,
+  "duration_s": 35,
+  "framing_checked_frames": 420,
+  "final_assembled_pose_verified": true,
+  "cpu_only": true,
+  "text_overlays": false,
+  "status": "Motion review; repeated CAD parts, horizontal rails resized along constant-profile axis; native expanded assembly not yet verified"
+}
