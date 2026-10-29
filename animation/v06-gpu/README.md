@@ -1,5 +1,9 @@
 # RTX 3080 delivery
 
+[Watch the completed video](infinite-skadis-gpu.mp4) · [Contact sheet](contact-sheet.jpg) · [Validation](delivery-validation.json)
+
+Delivery completed: 35 seconds, 1080p, 24 fps. The all-frame check caught corrupted geometry in frame 840 from the long GPU run. Rerendering frame 840 in a fresh Blender process with identical settings resolved it; the underlying renderer-state cause has not been established. After replacement, all 840 decoded frames passed the original thresholds without relaxing them (maximum isolated brightness change 1.321/255). Representative decoded frames and the repaired ending were visually inspected.
+
 Full, consistent OptiX render of the corrected v0.5 `smooth.blend` on the Ubuntu host's RTX 3080 10 GB, using Blender 4.5.9. All 840 frames use GPU rendering and GPU-accelerated denoising; settings remain 1080p, 24 fps, 32 samples and the corrected camera. Prior CPU frames are retained separately. The unrelated SK2 render is not stopped.
 
 The container SSH identity was checked against the host key supplied by the user. Dedicated credentials and pinned known_hosts live outside Git under the Windows user's `.ssh` directory. Endpoint: `render@192.168.148.1:2222`.

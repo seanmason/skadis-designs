@@ -1,0 +1,15 @@
+{
+  "decoded_frames": 840,
+  "duration_s": 35.0,
+  "dimensions": [
+    1920,
+    1080
+  ],
+  "fps": 24.0,
+  "bytes": 35546799,
+  "minimum_frame_brightness": 17.934953703703705,
+  "maximum_brightness_spike": 1.321053240740742,
+  "status": "encoded and decoded successfully; all frames passed black-frame and brightness-discontinuity checks; decoded contact sheet and repaired ending visually reviewed",
+  "repaired_frames": [840],
+  "repair": "Frame 840 rerendered in a fresh Blender process with identical scene and GPU settings"
+}
