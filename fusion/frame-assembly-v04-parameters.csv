@@ -1,0 +1,63 @@
+Name,Unit,Expression,Value,Comments,Favorite
+columns,,6,6,Even integer 4..14; each cell is 20 mm,false
+rows,,6,6,Even integer 4..14,false
+pitch,mm,20 mm,20.00,Keep for dense SKADIS compatible lattice,false
+panelWidth,mm,columns * pitch,120.00,Nominal module pitch X,false
+panelHeight,mm,rows * pitch,120.00,Nominal module pitch Y,false
+seamGap,mm,0.2 mm,0.20,Physical envelope shrinks around fixed lattice,false
+boardThickness,mm,5 mm,5.00,Fit-test with real hooks,false
+slotWidth,mm,5 mm,5.00,Minimum throat width,false
+slotHeight,mm,15 mm,15.00,Minimum throat height,false
+entryRadius,mm,0.4 mm,0.40,Front slot and perimeter edge rounding,false
+cornerRadius,mm,6 mm,6.00,Plan-view panel corner rounding,false
+hookClearance,mm,10 mm,10.00,PROVISIONAL unobstructed depth behind board; carriers begin at its rear boundary,false
+frameZ,mm,carrierZ + carrierThickness,22.00,Front extrusion datum,false
+profileMouth,mm,6.28 mm,6.28,User measured mouth,false
+profileCavity,mm,11 mm,11.00,User measured widest cavity,false
+profileDepth,mm,6.2 mm,6.20,User measured face-to-floor depth,false
+profileFloor,mm,5.7 mm,5.70,"User estimate, lower confidence",false
+profileLip,mm,1.5 mm,1.50,Unmeasured; tentative comparable catalog value,false
+profileTaperStart,mm,profileDepth - ( profileCavity - profileFloor ) / 2,3.55,Assumed 45-degree inner slopes,false
+profileBore,mm,5 mm,5.00,"Unmeasured central bore, reference only",false
+nutWidth,mm,8.8 mm,8.80,"Provisional low-profile METAL T-nut envelope, not old rectangular carrier",false
+nutLength,mm,12 mm,12.00,End-loaded anti-rotation metal nut envelope,false
+nutThickness,mm,2.7 mm,2.70,Thin nut reference; fit/load still unverified,false
+jointLeg,mm,18 mm,18.00,In-bay angle footprint,false
+jointThickness,mm,3 mm,3.00,Metal bracket thickness,false
+jointDepth,mm,16 mm,16.00,Bracket depth within 20 mm rail,false
+sideScrewLength,mm,8 mm,8.00,M5x8 reference; check against actual bracket and nut,false
+wallTabHeight,mm,24 mm,24.00,Tab along extrusion,false
+wallTabReach,mm,22 mm,22.00,Tab into open bay,false
+wallAnchorClearance,mm,6.5 mm,6.50,Placeholder wall anchor interface,false
+wallDriverDiameter,mm,12 mm,12.00,Clear tool envelope in open bays,false
+keyDriverDiameter,mm,5 mm,5.00,Short hex-key working-leg envelope,false
+keyDriverReach,mm,20 mm,20.00,Short hex-key working-leg reach,false
+supportWidth,mm,3.2 mm,3.20,Prototype blade; two perimeter lines need print review,false
+supportLength,mm,12 mm,12.00,Compression bearing length,false
+hookEnvelopeWidth,mm,6 mm,6.00,Conservative provisional continuous hook column,false
+carrierThickness,mm,7 mm,7.00,Room for captive M2 nut and stock M5x12,false
+panelClearance,mm,2.4 mm,2.40,M2 clearance,false
+panelHeadPocket,mm,4 mm,4.00,DIN965 3.8 mm head plus 0.1 mm recess,false
+carrierHeadPocket,mm,9.4 mm,9.40,DIN965 M5 9.2 mm head plus recess,false
+carrierBore,mm,5.5 mm,5.50,M5 clearance,false
+tongueWidth,mm,2.8 mm,2.80,Rear axial registration tongue,false
+tongueLength,mm,8 mm,8.00,Axial release registration,false
+tongueDepth,mm,0.6 mm,0.60,Tongue engagement,false
+registerClearance,mm,0.2 mm,0.20,Each side of printed tongue,false
+carrierZ,mm,boardThickness + hookClearance,15.00,Rear hook cavity boundary,false
+llLeft,,1,1,"Finished edge flag; change by rebuilding variant, resize natively",false
+llRight,,0,0,"Finished edge flag; change by rebuilding variant, resize natively",false
+llBottom,,1,1,"Finished edge flag; change by rebuilding variant, resize natively",false
+llTop,,0,0,"Finished edge flag; change by rebuilding variant, resize natively",false
+lrLeft,,0,0,"Finished edge flag; change by rebuilding variant, resize natively",false
+lrRight,,1,1,"Finished edge flag; change by rebuilding variant, resize natively",false
+lrBottom,,1,1,"Finished edge flag; change by rebuilding variant, resize natively",false
+lrTop,,0,0,"Finished edge flag; change by rebuilding variant, resize natively",false
+ulLeft,,1,1,"Finished edge flag; change by rebuilding variant, resize natively",false
+ulRight,,0,0,"Finished edge flag; change by rebuilding variant, resize natively",false
+ulBottom,,0,0,"Finished edge flag; change by rebuilding variant, resize natively",false
+ulTop,,1,1,"Finished edge flag; change by rebuilding variant, resize natively",false
+urLeft,,0,0,"Finished edge flag; change by rebuilding variant, resize natively",false
+urRight,,1,1,"Finished edge flag; change by rebuilding variant, resize natively",false
+urBottom,,0,0,"Finished edge flag; change by rebuilding variant, resize natively",false
+urTop,,1,1,"Finished edge flag; change by rebuilding variant, resize natively",false

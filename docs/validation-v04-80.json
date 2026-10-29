@@ -1,0 +1,28 @@
+{
+  "health": {
+    "healthy": true,
+    "fully_constrained_sketches": true,
+    "components": 159,
+    "timeline_features": 946,
+    "timeline_groups": 0
+  },
+  "static_collisions": [],
+  "hook_corridor_collisions": [],
+  "sampled_panel_and_screw_motion_collisions": [],
+  "frame_tool_collisions": [],
+  "frame_tool_envelopes": 52,
+  "front_protrusions": [],
+  "behind_wall": [],
+  "face_to_wall_mm": 42.0,
+  "hook_cavity_mm": 10.0,
+  "blade_lateral_clearance_mm": 0.39999999999999925,
+  "physical_fit_verified": false,
+  "limitations": [
+    "Continuous 6 mm wide hook columns are provisional, not measured hook meshes",
+    "Motion checked at seven axial offsets, not a continuous kinematic simulation",
+    "Metal hardware envelopes omit threads and manufacturer tolerances",
+    "No structural rating or large-wall engineering analysis"
+  ],
+  "parts_outside_module_array": [],
+  "panel_screw_station_count": 16
+}

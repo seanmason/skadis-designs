@@ -1,0 +1,62 @@
+[
+  {
+    "columns": 4,
+    "rows": 4,
+    "health": {
+      "healthy": true,
+      "fully_constrained_sketches": true,
+      "components": 159,
+      "timeline_features": 946,
+      "timeline_groups": 0
+    },
+    "panel_bounds_mm": [
+      79.80000000000001,
+      79.80000000000001
+    ]
+  },
+  {
+    "columns": 8,
+    "rows": 6,
+    "health": {
+      "healthy": true,
+      "fully_constrained_sketches": true,
+      "components": 159,
+      "timeline_features": 946,
+      "timeline_groups": 0
+    },
+    "panel_bounds_mm": [
+      159.8,
+      119.80000000000001
+    ]
+  },
+  {
+    "columns": 14,
+    "rows": 14,
+    "health": {
+      "healthy": true,
+      "fully_constrained_sketches": true,
+      "components": 159,
+      "timeline_features": 946,
+      "timeline_groups": 0
+    },
+    "panel_bounds_mm": [
+      279.8,
+      279.8
+    ]
+  },
+  {
+    "columns": 6,
+    "rows": 6,
+    "health": {
+      "healthy": true,
+      "fully_constrained_sketches": true,
+      "components": 159,
+      "timeline_features": 946,
+      "timeline_groups": 0
+    },
+    "panel_bounds_mm": [
+      119.80000000000003,
+      119.80000000000003
+    ]
+  }
+]

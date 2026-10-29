@@ -2,7 +2,17 @@
 
 An original Autodesk Fusion parametric pegboard system for a future pixel-art installation, printed on a Bambu Lab H2D.
 
-**Status: v0.3 flush-wall CAD prototype. CAD validation is not physical validation.** No installation load rating, print-fit result, or universal IKEA accessory compatibility is claimed.
+**Status: v0.4 flush-screw CAD prototype. CAD validation is not physical validation.** No installation load rating, print-fit result, or universal IKEA accessory compatibility is claimed.
+
+## v0.4 clean-face revision
+
+- [Assembly sequence, hardware and prototype limitations](docs/assembly-review-v04.md)
+- [Native Fusion assembly](models/v04/frame-assembly-v04.f3d), [STEP](models/v04/frame-assembly-v04.step), and [printable prototype parts](models/v04/)
+- [Front](models/v04/front.png) and [rear](models/v04/rear.png) previews
+- [Parametric generator](fusion/FrameSystemV04.py) and [geometric validation](docs/validation-v04.json)
+- [Native interior, edge and standalone panel library](models/v04/panels/), [80 mm clearance checks](docs/validation-v04-80.json), [resize checks](docs/resize-validation-v04.json) and [mesh checks](docs/mesh-validation-v04.json)
+
+Four small flush M2 heads retain each panel independently. Integrated support blades and captive metal nuts replace the large front caps, restoring the mounting-node slots. Shared rear carriers register vertical seams and bolt to the extrusion with recessed M5 fixings. The 10 mm provisional hook cavity is preserved; the revised carrier stack gives a 42 mm face-to-wall distance with the extrusion rear against the wall. This supersedes the earlier v0.4 clearance-only study.
 
 ## Product-reveal animation
 

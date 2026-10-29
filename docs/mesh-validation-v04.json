@@ -1,0 +1,145 @@
+[
+  {
+    "file": "carrier-double.stl",
+    "triangles": 1340,
+    "closed_edge_incidence": true,
+    "bounds_mm": [
+      30.0,
+      31.0,
+      18.4
+    ],
+    "volume_mm3": 6686.583
+  },
+  {
+    "file": "carrier-single.stl",
+    "triangles": 856,
+    "closed_edge_incidence": true,
+    "bounds_mm": [
+      20.0,
+      31.0,
+      18.4
+    ],
+    "volume_mm3": 4334.337
+  },
+  {
+    "file": "nut-keeper.stl",
+    "triangles": 28,
+    "closed_edge_incidence": true,
+    "bounds_mm": [
+      6.0,
+      3.8,
+      4.0
+    ],
+    "volume_mm3": 43.14
+  },
+  {
+    "file": "panel-lower-left-120.stl",
+    "triangles": 77304,
+    "closed_edge_incidence": true,
+    "bounds_mm": [
+      119.8,
+      119.8,
+      5.0
+    ],
+    "volume_mm3": 47469.971
+  },
+  {
+    "file": "panel-lower-right-120.stl",
+    "triangles": 77304,
+    "closed_edge_incidence": true,
+    "bounds_mm": [
+      119.8,
+      119.8,
+      5.0
+    ],
+    "volume_mm3": 47469.958
+  },
+  {
+    "file": "panel-upper-left-120.stl",
+    "triangles": 77304,
+    "closed_edge_incidence": true,
+    "bounds_mm": [
+      119.8,
+      119.8,
+      5.0
+    ],
+    "volume_mm3": 47469.958
+  },
+  {
+    "file": "panel-upper-right-120.stl",
+    "triangles": 77304,
+    "closed_edge_incidence": true,
+    "bounds_mm": [
+      119.8,
+      119.8,
+      5.0
+    ],
+    "volume_mm3": 47469.945
+  },
+  {
+    "file": "panel-bottom-edge-120.stl",
+    "triangles": 77240,
+    "closed_edge_incidence": true,
+    "bounds_mm": [
+      119.8,
+      119.8,
+      5.0
+    ],
+    "volume_mm3": 47509.229
+  },
+  {
+    "file": "panel-interior-120.stl",
+    "triangles": 80260,
+    "closed_edge_incidence": true,
+    "bounds_mm": [
+      119.8,
+      119.8,
+      5.0
+    ],
+    "volume_mm3": 46478.572
+  },
+  {
+    "file": "panel-left-edge-120.stl",
+    "triangles": 80260,
+    "closed_edge_incidence": true,
+    "bounds_mm": [
+      119.8,
+      119.8,
+      5.0
+    ],
+    "volume_mm3": 46478.572
+  },
+  {
+    "file": "panel-right-edge-120.stl",
+    "triangles": 80260,
+    "closed_edge_incidence": true,
+    "bounds_mm": [
+      119.8,
+      119.8,
+      5.0
+    ],
+    "volume_mm3": 46478.572
+  },
+  {
+    "file": "panel-standalone-120.stl",
+    "triangles": 74476,
+    "closed_edge_incidence": true,
+    "bounds_mm": [
+      119.8,
+      119.8,
+      5.0
+    ],
+    "volume_mm3": 48382.855
+  },
+  {
+    "file": "panel-top-edge-120.stl",
+    "triangles": 77240,
+    "closed_edge_incidence": true,
+    "bounds_mm": [
+      119.8,
+      119.8,
+      5.0
+    ],
+    "volume_mm3": 47509.229
+  }
+]

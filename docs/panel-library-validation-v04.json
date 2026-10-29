@@ -1,0 +1,92 @@
+{
+  "interior": {
+    "finished_edges_LRBT": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "health": {
+      "healthy": true,
+      "fully_constrained_sketches": true,
+      "components": 1,
+      "timeline_features": 38,
+      "timeline_groups": 0
+    }
+  },
+  "left-edge": {
+    "finished_edges_LRBT": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "health": {
+      "healthy": true,
+      "fully_constrained_sketches": true,
+      "components": 1,
+      "timeline_features": 38,
+      "timeline_groups": 0
+    }
+  },
+  "right-edge": {
+    "finished_edges_LRBT": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "health": {
+      "healthy": true,
+      "fully_constrained_sketches": true,
+      "components": 1,
+      "timeline_features": 38,
+      "timeline_groups": 0
+    }
+  },
+  "bottom-edge": {
+    "finished_edges_LRBT": [
+      0,
+      0,
+      1,
+      0
+    ],
+    "health": {
+      "healthy": true,
+      "fully_constrained_sketches": true,
+      "components": 1,
+      "timeline_features": 38,
+      "timeline_groups": 0
+    }
+  },
+  "top-edge": {
+    "finished_edges_LRBT": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "health": {
+      "healthy": true,
+      "fully_constrained_sketches": true,
+      "components": 1,
+      "timeline_features": 38,
+      "timeline_groups": 0
+    }
+  },
+  "standalone": {
+    "finished_edges_LRBT": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "health": {
+      "healthy": true,
+      "fully_constrained_sketches": true,
+      "components": 1,
+      "timeline_features": 39,
+      "timeline_groups": 0
+    }
+  }
+}
