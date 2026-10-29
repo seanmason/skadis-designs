@@ -1,0 +1,27 @@
+{
+  "devices": [
+    {
+      "name": "AMD Ryzen 9 5950X 16-Core Processor",
+      "type": "CPU"
+    },
+    {
+      "name": "NVIDIA GeForce RTX 3080",
+      "type": "OPTIX"
+    }
+  ],
+  "results_this_run": [
+    {
+      "frame": 1,
+      "seconds": 2.39041679300135
+    },
+    {
+      "frame": 260,
+      "seconds": 1.0649872999929357
+    },
+    {
+      "frame": 462,
+      "seconds": 1.3077306119957939
+    }
+  ],
+  "last_completed": 462
+}

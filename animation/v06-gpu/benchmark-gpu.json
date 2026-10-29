@@ -1,0 +1,23 @@
+{
+  "devices": [
+    {
+      "name": "NVIDIA GeForce RTX 3080",
+      "type": "OPTIX"
+    }
+  ],
+  "results_this_run": [
+    {
+      "frame": 1,
+      "seconds": 1.6268084250041284
+    },
+    {
+      "frame": 260,
+      "seconds": 0.9531716330093332
+    },
+    {
+      "frame": 462,
+      "seconds": 0.9672965090139769
+    }
+  ],
+  "last_completed": 462
+}

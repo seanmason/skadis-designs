@@ -13,6 +13,7 @@ gpus=[d for d in prefs.devices if d.type=='OPTIX']
 if not gpus:raise RuntimeError('No OptiX GPU detected; refusing silent CPU fallback')
 for d in prefs.devices:d.use=(d.type=='OPTIX' or (a.with_cpu and d.type=='CPU'))
 s=bpy.context.scene;s.render.engine='CYCLES';s.cycles.device='GPU'
+if hasattr(s.cycles,'denoising_use_gpu'):s.cycles.denoising_use_gpu=True
 s.render.threads_mode='AUTO'
 out=Path(a.output);out.mkdir(parents=True,exist_ok=True)
 frames=range(a.start,a.end+1) if a.start is not None and a.end is not None else [int(f) for f in a.frames.split(',')]
