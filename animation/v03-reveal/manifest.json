@@ -1,0 +1,2058 @@
+{
+  "source": "Fusion v0.3 native assembly",
+  "module_mm": 240,
+  "assembly_nominal_mm": [
+    480,
+    480,
+    35
+  ],
+  "health": {
+    "healthy": true,
+    "fully_constrained_sketches": true,
+    "components": 120,
+    "timeline_features": 1321,
+    "timeline_groups": 120
+  },
+  "parts": [
+    {
+      "name": "Panel lower left",
+      "file": "meshes/000.stl",
+      "bounds_mm": [
+        [
+          0.10000000000000009,
+          0.10000000000000002,
+          0.0
+        ],
+        [
+          239.90000000000003,
+          239.90000000000003,
+          5.0
+        ]
+      ],
+      "volume_mm3": 201564.35683702
+    },
+    {
+      "name": "Panel lower right",
+      "file": "meshes/001.stl",
+      "bounds_mm": [
+        [
+          240.10000000000002,
+          0.09999999999999787,
+          0.0
+        ],
+        [
+          479.90000000000003,
+          239.90000000000003,
+          5.0
+        ]
+      ],
+      "volume_mm3": 201564.35736694495
+    },
+    {
+      "name": "Panel upper left",
+      "file": "meshes/002.stl",
+      "bounds_mm": [
+        [
+          0.10000000000000002,
+          240.10000000000002,
+          0.0
+        ],
+        [
+          239.90000000000003,
+          479.90000000000003,
+          5.0
+        ]
+      ],
+      "volume_mm3": 201564.35759052265
+    },
+    {
+      "name": "Panel upper right",
+      "file": "meshes/003.stl",
+      "bounds_mm": [
+        [
+          240.10000000000002,
+          240.10000000000002,
+          0.0
+        ],
+        [
+          479.90000000000003,
+          479.90000000000003,
+          5.0
+        ]
+      ],
+      "volume_mm3": 201564.35742199534
+    },
+    {
+      "name": "Vertical rail 0 - measured sloped-slot approximation",
+      "file": "meshes/004.stl",
+      "bounds_mm": [
+        [
+          2.0000000000000018,
+          2.0000000000000018,
+          15.0
+        ],
+        [
+          22.0,
+          478.00000000000006,
+          35.0
+        ]
+      ],
+      "volume_mm3": 78052.12185556992
+    },
+    {
+      "name": "Vertical rail 1 - measured sloped-slot approximation",
+      "file": "meshes/005.stl",
+      "bounds_mm": [
+        [
+          230.0,
+          2.0000000000000018,
+          15.0
+        ],
+        [
+          250.0,
+          478.00000000000006,
+          35.0
+        ]
+      ],
+      "volume_mm3": 78052.12185556983
+    },
+    {
+      "name": "Vertical rail 2 - measured sloped-slot approximation",
+      "file": "meshes/006.stl",
+      "bounds_mm": [
+        [
+          458.0,
+          2.0000000000000018,
+          15.0
+        ],
+        [
+          478.0,
+          478.00000000000006,
+          35.0
+        ]
+      ],
+      "volume_mm3": 78052.12185556961
+    },
+    {
+      "name": "Horizontal tie 00 - measured sloped-slot approximation",
+      "file": "meshes/007.stl",
+      "bounds_mm": [
+        [
+          22.0,
+          2.0000000000000018,
+          15.0
+        ],
+        [
+          230.0,
+          22.0,
+          35.0
+        ]
+      ],
+      "volume_mm3": 34106.80955033342
+    },
+    {
+      "name": "Horizontal tie 10 - measured sloped-slot approximation",
+      "file": "meshes/008.stl",
+      "bounds_mm": [
+        [
+          250.0,
+          2.0000000000000018,
+          15.0
+        ],
+        [
+          458.0,
+          22.0,
+          35.0
+        ]
+      ],
+      "volume_mm3": 34106.809550333426
+    },
+    {
+      "name": "Horizontal tie 01 - measured sloped-slot approximation",
+      "file": "meshes/009.stl",
+      "bounds_mm": [
+        [
+          22.0,
+          458.0,
+          15.0
+        ],
+        [
+          230.0,
+          478.0,
+          35.0
+        ]
+      ],
+      "volume_mm3": 34106.80955033336
+    },
+    {
+      "name": "Horizontal tie 11 - measured sloped-slot approximation",
+      "file": "meshes/010.stl",
+      "bounds_mm": [
+        [
+          250.0,
+          458.0,
+          15.0
+        ],
+        [
+          458.0,
+          478.0,
+          35.0
+        ]
+      ],
+      "volume_mm3": 34106.80955033337
+    },
+    {
+      "name": "METAL cap 00",
+      "file": "meshes/011.stl",
+      "bounds_mm": [
+        [
+          3.0000000000000027,
+          3.0000000000000027,
+          -5.0
+        ],
+        [
+          21.0,
+          21.0,
+          0.0
+        ]
+      ],
+      "volume_mm3": 1153.5535524900517
+    },
+    {
+      "name": "PRINT registration seat 00",
+      "file": "meshes/012.stl",
+      "bounds_mm": [
+        [
+          3.0000000000000027,
+          3.0000000000000027,
+          4.2
+        ],
+        [
+          21.0,
+          21.0,
+          7.0
+        ]
+      ],
+      "volume_mm3": 408.1557175544034
+    },
+    {
+      "name": "METAL stepped compression spacer 00",
+      "file": "meshes/013.stl",
+      "bounds_mm": [
+        [
+          6.000000000000001,
+          6.000000000000001,
+          0.0
+        ],
+        [
+          18.000000000000004,
+          18.000000000000004,
+          15.0
+        ]
+      ],
+      "volume_mm3": 900.2626447942869
+    },
+    {
+      "name": "REFERENCE front M5x25 00",
+      "file": "meshes/014.stl",
+      "bounds_mm": [
+        [
+          7.250000000000001,
+          7.250000000000001,
+          -8.0
+        ],
+        [
+          16.750000000000004,
+          16.750000000000004,
+          19.999999999999996
+        ]
+      ],
+      "volume_mm3": 703.5204048632344
+    },
+    {
+      "name": "REFERENCE thin METAL channel nut front 00",
+      "file": "meshes/015.stl",
+      "bounds_mm": [
+        [
+          7.600000000000001,
+          6.000000000000001,
+          16.5
+        ],
+        [
+          16.400000000000002,
+          18.000000000000004,
+          19.2
+        ]
+      ],
+      "volume_mm3": 227.7796508866767
+    },
+    {
+      "name": "METAL cap 01",
+      "file": "meshes/016.stl",
+      "bounds_mm": [
+        [
+          3.0000000000000027,
+          231.0,
+          -5.0
+        ],
+        [
+          21.0,
+          249.0,
+          0.0
+        ]
+      ],
+      "volume_mm3": 1153.5535524900517
+    },
+    {
+      "name": "PRINT registration seat 01",
+      "file": "meshes/017.stl",
+      "bounds_mm": [
+        [
+          3.0000000000000027,
+          231.0,
+          4.2
+        ],
+        [
+          21.0,
+          249.0,
+          7.0
+        ]
+      ],
+      "volume_mm3": 408.1557175544034
+    },
+    {
+      "name": "METAL stepped compression spacer 01",
+      "file": "meshes/018.stl",
+      "bounds_mm": [
+        [
+          6.000000000000001,
+          234.0,
+          0.0
+        ],
+        [
+          18.000000000000004,
+          246.0,
+          15.0
+        ]
+      ],
+      "volume_mm3": 900.262644794287
+    },
+    {
+      "name": "REFERENCE front M5x25 01",
+      "file": "meshes/019.stl",
+      "bounds_mm": [
+        [
+          7.250000000000001,
+          235.25,
+          -8.0
+        ],
+        [
+          16.750000000000004,
+          244.75,
+          19.999999999999996
+        ]
+      ],
+      "volume_mm3": 703.5204048632343
+    },
+    {
+      "name": "REFERENCE thin METAL channel nut front 01",
+      "file": "meshes/020.stl",
+      "bounds_mm": [
+        [
+          7.600000000000001,
+          234.0,
+          16.5
+        ],
+        [
+          16.400000000000002,
+          246.0,
+          19.2
+        ]
+      ],
+      "volume_mm3": 227.7796508866773
+    },
+    {
+      "name": "METAL cap 02",
+      "file": "meshes/021.stl",
+      "bounds_mm": [
+        [
+          3.0000000000000027,
+          459.0,
+          -5.0
+        ],
+        [
+          21.0,
+          476.99999999999994,
+          0.0
+        ]
+      ],
+      "volume_mm3": 1153.5535524900517
+    },
+    {
+      "name": "PRINT registration seat 02",
+      "file": "meshes/022.stl",
+      "bounds_mm": [
+        [
+          3.0000000000000027,
+          459.0,
+          4.2
+        ],
+        [
+          21.0,
+          476.99999999999994,
+          7.0
+        ]
+      ],
+      "volume_mm3": 408.1557175544034
+    },
+    {
+      "name": "METAL stepped compression spacer 02",
+      "file": "meshes/023.stl",
+      "bounds_mm": [
+        [
+          6.000000000000001,
+          461.99999999999994,
+          0.0
+        ],
+        [
+          18.000000000000004,
+          474.0,
+          15.0
+        ]
+      ],
+      "volume_mm3": 900.262644794287
+    },
+    {
+      "name": "REFERENCE front M5x25 02",
+      "file": "meshes/024.stl",
+      "bounds_mm": [
+        [
+          7.250000000000001,
+          463.24999999999994,
+          -8.0
+        ],
+        [
+          16.750000000000004,
+          472.75,
+          19.999999999999996
+        ]
+      ],
+      "volume_mm3": 703.5204048632341
+    },
+    {
+      "name": "REFERENCE thin METAL channel nut front 02",
+      "file": "meshes/025.stl",
+      "bounds_mm": [
+        [
+          7.600000000000001,
+          461.99999999999994,
+          16.5
+        ],
+        [
+          16.400000000000002,
+          473.9999999999999,
+          19.2
+        ]
+      ],
+      "volume_mm3": 227.77965088667565
+    },
+    {
+      "name": "METAL cap 10",
+      "file": "meshes/026.stl",
+      "bounds_mm": [
+        [
+          231.0,
+          3.000000000000016,
+          -5.0
+        ],
+        [
+          249.0,
+          20.999999999999986,
+          0.0
+        ]
+      ],
+      "volume_mm3": 1153.5535524900477
+    },
+    {
+      "name": "PRINT registration seat 10",
+      "file": "meshes/027.stl",
+      "bounds_mm": [
+        [
+          231.0,
+          3.000000000000016,
+          4.2
+        ],
+        [
+          249.0,
+          20.999999999999986,
+          7.0
+        ]
+      ],
+      "volume_mm3": 408.15571755440095
+    },
+    {
+      "name": "METAL stepped compression spacer 10",
+      "file": "meshes/028.stl",
+      "bounds_mm": [
+        [
+          234.0,
+          5.999999999999988,
+          0.0
+        ],
+        [
+          246.0,
+          18.000000000000014,
+          15.0
+        ]
+      ],
+      "volume_mm3": 900.2626447942921
+    },
+    {
+      "name": "REFERENCE front M5x25 10",
+      "file": "meshes/029.stl",
+      "bounds_mm": [
+        [
+          235.25,
+          7.249999999999988,
+          -8.0
+        ],
+        [
+          244.75,
+          16.750000000000014,
+          19.999999999999996
+        ]
+      ],
+      "volume_mm3": 703.5204048632371
+    },
+    {
+      "name": "REFERENCE thin METAL channel nut front 10",
+      "file": "meshes/030.stl",
+      "bounds_mm": [
+        [
+          235.6,
+          6.000000000000001,
+          16.5
+        ],
+        [
+          244.39999999999998,
+          18.000000000000004,
+          19.2
+        ]
+      ],
+      "volume_mm3": 227.77965088667716
+    },
+    {
+      "name": "METAL cap 11",
+      "file": "meshes/031.stl",
+      "bounds_mm": [
+        [
+          231.0,
+          231.0,
+          -5.0
+        ],
+        [
+          249.0,
+          249.0,
+          0.0
+        ]
+      ],
+      "volume_mm3": 1153.5535524900477
+    },
+    {
+      "name": "PRINT registration seat 11",
+      "file": "meshes/032.stl",
+      "bounds_mm": [
+        [
+          231.0,
+          231.0,
+          4.2
+        ],
+        [
+          249.0,
+          249.0,
+          7.0
+        ]
+      ],
+      "volume_mm3": 408.15571755440095
+    },
+    {
+      "name": "METAL stepped compression spacer 11",
+      "file": "meshes/033.stl",
+      "bounds_mm": [
+        [
+          234.0,
+          234.0,
+          0.0
+        ],
+        [
+          246.0,
+          246.0,
+          15.0
+        ]
+      ],
+      "volume_mm3": 900.2626447942921
+    },
+    {
+      "name": "REFERENCE front M5x25 11",
+      "file": "meshes/034.stl",
+      "bounds_mm": [
+        [
+          235.25,
+          235.25,
+          -8.0
+        ],
+        [
+          244.75,
+          244.75,
+          19.999999999999996
+        ]
+      ],
+      "volume_mm3": 703.5204048632354
+    },
+    {
+      "name": "REFERENCE thin METAL channel nut front 11",
+      "file": "meshes/035.stl",
+      "bounds_mm": [
+        [
+          235.6,
+          234.0,
+          16.5
+        ],
+        [
+          244.39999999999998,
+          246.0,
+          19.2
+        ]
+      ],
+      "volume_mm3": 227.77965088667779
+    },
+    {
+      "name": "METAL cap 12",
+      "file": "meshes/036.stl",
+      "bounds_mm": [
+        [
+          231.0,
+          459.0,
+          -5.0
+        ],
+        [
+          249.0,
+          476.99999999999994,
+          0.0
+        ]
+      ],
+      "volume_mm3": 1153.5535524900477
+    },
+    {
+      "name": "PRINT registration seat 12",
+      "file": "meshes/037.stl",
+      "bounds_mm": [
+        [
+          231.0,
+          459.0,
+          4.2
+        ],
+        [
+          249.0,
+          476.99999999999994,
+          7.0
+        ]
+      ],
+      "volume_mm3": 408.15571755440095
+    },
+    {
+      "name": "METAL stepped compression spacer 12",
+      "file": "meshes/038.stl",
+      "bounds_mm": [
+        [
+          234.0,
+          461.99999999999994,
+          0.0
+        ],
+        [
+          246.0,
+          474.0,
+          15.0
+        ]
+      ],
+      "volume_mm3": 900.2626447942921
+    },
+    {
+      "name": "REFERENCE front M5x25 12",
+      "file": "meshes/039.stl",
+      "bounds_mm": [
+        [
+          235.25,
+          463.24999999999994,
+          -8.0
+        ],
+        [
+          244.75,
+          472.75,
+          19.999999999999996
+        ]
+      ],
+      "volume_mm3": 703.5204048632354
+    },
+    {
+      "name": "REFERENCE thin METAL channel nut front 12",
+      "file": "meshes/040.stl",
+      "bounds_mm": [
+        [
+          235.6,
+          461.99999999999994,
+          16.5
+        ],
+        [
+          244.39999999999998,
+          473.9999999999999,
+          19.2
+        ]
+      ],
+      "volume_mm3": 227.77965088667608
+    },
+    {
+      "name": "METAL cap 20",
+      "file": "meshes/041.stl",
+      "bounds_mm": [
+        [
+          459.0,
+          3.000000000000016,
+          -5.0
+        ],
+        [
+          476.99999999999994,
+          20.999999999999986,
+          0.0
+        ]
+      ],
+      "volume_mm3": 1153.5535524900488
+    },
+    {
+      "name": "PRINT registration seat 20",
+      "file": "meshes/042.stl",
+      "bounds_mm": [
+        [
+          459.0,
+          3.000000000000016,
+          4.2
+        ],
+        [
+          476.99999999999994,
+          20.999999999999986,
+          7.0
+        ]
+      ],
+      "volume_mm3": 408.1557175544006
+    },
+    {
+      "name": "METAL stepped compression spacer 20",
+      "file": "meshes/043.stl",
+      "bounds_mm": [
+        [
+          461.99999999999994,
+          5.999999999999988,
+          0.0
+        ],
+        [
+          474.0,
+          18.000000000000014,
+          15.0
+        ]
+      ],
+      "volume_mm3": 900.2626447942921
+    },
+    {
+      "name": "REFERENCE front M5x25 20",
+      "file": "meshes/044.stl",
+      "bounds_mm": [
+        [
+          463.24999999999994,
+          7.249999999999988,
+          -8.0
+        ],
+        [
+          472.75,
+          16.750000000000014,
+          19.999999999999996
+        ]
+      ],
+      "volume_mm3": 703.5204048632354
+    },
+    {
+      "name": "REFERENCE thin METAL channel nut front 20",
+      "file": "meshes/045.stl",
+      "bounds_mm": [
+        [
+          463.6,
+          6.000000000000001,
+          16.5
+        ],
+        [
+          472.4,
+          18.000000000000004,
+          19.2
+        ]
+      ],
+      "volume_mm3": 227.77965088667267
+    },
+    {
+      "name": "METAL cap 21",
+      "file": "meshes/046.stl",
+      "bounds_mm": [
+        [
+          459.0,
+          231.0,
+          -5.0
+        ],
+        [
+          476.99999999999994,
+          249.0,
+          0.0
+        ]
+      ],
+      "volume_mm3": 1153.5535524900488
+    },
+    {
+      "name": "PRINT registration seat 21",
+      "file": "meshes/047.stl",
+      "bounds_mm": [
+        [
+          459.0,
+          231.0,
+          4.2
+        ],
+        [
+          476.99999999999994,
+          249.0,
+          7.0
+        ]
+      ],
+      "volume_mm3": 408.1557175544006
+    },
+    {
+      "name": "METAL stepped compression spacer 21",
+      "file": "meshes/048.stl",
+      "bounds_mm": [
+        [
+          461.99999999999994,
+          234.0,
+          0.0
+        ],
+        [
+          474.0,
+          246.0,
+          15.0
+        ]
+      ],
+      "volume_mm3": 900.2626447942921
+    },
+    {
+      "name": "REFERENCE front M5x25 21",
+      "file": "meshes/049.stl",
+      "bounds_mm": [
+        [
+          463.24999999999994,
+          235.25,
+          -8.0
+        ],
+        [
+          472.75,
+          244.75,
+          19.999999999999996
+        ]
+      ],
+      "volume_mm3": 703.5204048632354
+    },
+    {
+      "name": "REFERENCE thin METAL channel nut front 21",
+      "file": "meshes/050.stl",
+      "bounds_mm": [
+        [
+          463.6,
+          234.0,
+          16.5
+        ],
+        [
+          472.4,
+          246.0,
+          19.2
+        ]
+      ],
+      "volume_mm3": 227.7796508866733
+    },
+    {
+      "name": "METAL cap 22",
+      "file": "meshes/051.stl",
+      "bounds_mm": [
+        [
+          459.0,
+          459.0,
+          -5.0
+        ],
+        [
+          476.99999999999994,
+          476.99999999999994,
+          0.0
+        ]
+      ],
+      "volume_mm3": 1153.5535524900488
+    },
+    {
+      "name": "PRINT registration seat 22",
+      "file": "meshes/052.stl",
+      "bounds_mm": [
+        [
+          459.0,
+          459.0,
+          4.2
+        ],
+        [
+          476.99999999999994,
+          476.99999999999994,
+          7.0
+        ]
+      ],
+      "volume_mm3": 408.1557175544006
+    },
+    {
+      "name": "METAL stepped compression spacer 22",
+      "file": "meshes/053.stl",
+      "bounds_mm": [
+        [
+          461.99999999999994,
+          461.99999999999994,
+          0.0
+        ],
+        [
+          474.0,
+          474.0,
+          15.0
+        ]
+      ],
+      "volume_mm3": 900.2626447942921
+    },
+    {
+      "name": "REFERENCE front M5x25 22",
+      "file": "meshes/054.stl",
+      "bounds_mm": [
+        [
+          463.24999999999994,
+          463.24999999999994,
+          -8.0
+        ],
+        [
+          472.75,
+          472.75,
+          19.999999999999996
+        ]
+      ],
+      "volume_mm3": 703.5204048632354
+    },
+    {
+      "name": "REFERENCE thin METAL channel nut front 22",
+      "file": "meshes/055.stl",
+      "bounds_mm": [
+        [
+          463.6,
+          461.99999999999994,
+          16.5
+        ],
+        [
+          472.4,
+          473.9999999999999,
+          19.2
+        ]
+      ],
+      "volume_mm3": 227.77965088667162
+    },
+    {
+      "name": "METAL in-bay corner 00L",
+      "file": "meshes/056.stl",
+      "bounds_mm": [
+        [
+          22.0,
+          22.0,
+          17.0
+        ],
+        [
+          40.0,
+          40.0,
+          33.0
+        ]
+      ],
+      "volume_mm3": 1441.4502333433618
+    },
+    {
+      "name": "REFERENCE side M5x8 00L X",
+      "file": "meshes/057.stl",
+      "bounds_mm": [
+        [
+          17.0,
+          29.250000000000004,
+          20.25
+        ],
+        [
+          28.0,
+          38.75000000000001,
+          29.75
+        ]
+      ],
+      "volume_mm3": 369.7261854193328
+    },
+    {
+      "name": "REFERENCE thin METAL channel nut side 00L X",
+      "file": "meshes/058.stl",
+      "bounds_mm": [
+        [
+          17.800000000000004,
+          28.000000000000004,
+          20.6
+        ],
+        [
+          20.500000000000004,
+          40.0,
+          29.400000000000006
+        ]
+      ],
+      "volume_mm3": 227.77965088668176
+    },
+    {
+      "name": "REFERENCE side M5x8 00L Y",
+      "file": "meshes/059.stl",
+      "bounds_mm": [
+        [
+          29.250000000000004,
+          17.0,
+          20.25
+        ],
+        [
+          38.75000000000001,
+          28.0,
+          29.75
+        ]
+      ],
+      "volume_mm3": 369.7261854193645
+    },
+    {
+      "name": "REFERENCE thin METAL channel nut side 00L Y",
+      "file": "meshes/060.stl",
+      "bounds_mm": [
+        [
+          28.000000000000004,
+          17.800000000000004,
+          20.6
+        ],
+        [
+          40.0,
+          20.500000000000004,
+          29.400000000000006
+        ]
+      ],
+      "volume_mm3": 227.7796508866768
+    },
+    {
+      "name": "METAL in-bay corner 00R",
+      "file": "meshes/061.stl",
+      "bounds_mm": [
+        [
+          212.0,
+          22.0,
+          17.0
+        ],
+        [
+          230.0,
+          40.0,
+          33.0
+        ]
+      ],
+      "volume_mm3": 1441.4502333433632
+    },
+    {
+      "name": "REFERENCE side M5x8 00R X",
+      "file": "meshes/062.stl",
+      "bounds_mm": [
+        [
+          224.0,
+          29.250000000000004,
+          20.25
+        ],
+        [
+          235.0,
+          38.75000000000001,
+          29.75
+        ]
+      ],
+      "volume_mm3": 369.72618541933366
+    },
+    {
+      "name": "REFERENCE thin METAL channel nut side 00R X",
+      "file": "meshes/063.stl",
+      "bounds_mm": [
+        [
+          231.5,
+          28.000000000000004,
+          20.6
+        ],
+        [
+          234.2,
+          40.0,
+          29.400000000000006
+        ]
+      ],
+      "volume_mm3": 227.77965088668134
+    },
+    {
+      "name": "REFERENCE side M5x8 00R Y",
+      "file": "meshes/064.stl",
+      "bounds_mm": [
+        [
+          213.25000000000003,
+          17.0,
+          20.25000000000002
+        ],
+        [
+          222.75,
+          28.0,
+          29.74999999999998
+        ]
+      ],
+      "volume_mm3": 369.72618541936265
+    },
+    {
+      "name": "REFERENCE thin METAL channel nut side 00R Y",
+      "file": "meshes/065.stl",
+      "bounds_mm": [
+        [
+          212.0,
+          17.800000000000004,
+          20.6
+        ],
+        [
+          224.0,
+          20.500000000000004,
+          29.400000000000006
+        ]
+      ],
+      "volume_mm3": 227.77965088667605
+    },
+    {
+      "name": "METAL in-bay corner 10L",
+      "file": "meshes/066.stl",
+      "bounds_mm": [
+        [
+          250.0,
+          22.0,
+          17.0
+        ],
+        [
+          268.0,
+          40.0,
+          33.0
+        ]
+      ],
+      "volume_mm3": 1441.4502333433632
+    },
+    {
+      "name": "REFERENCE side M5x8 10L X",
+      "file": "meshes/067.stl",
+      "bounds_mm": [
+        [
+          245.0,
+          29.250000000000004,
+          20.25
+        ],
+        [
+          256.0,
+          38.75000000000001,
+          29.75
+        ]
+      ],
+      "volume_mm3": 369.72618541933366
+    },
+    {
+      "name": "REFERENCE thin METAL channel nut side 10L X",
+      "file": "meshes/068.stl",
+      "bounds_mm": [
+        [
+          245.8,
+          28.000000000000004,
+          20.6
+        ],
+        [
+          248.5,
+          40.0,
+          29.400000000000006
+        ]
+      ],
+      "volume_mm3": 227.77965088668134
+    },
+    {
+      "name": "REFERENCE side M5x8 10L Y",
+      "file": "meshes/069.stl",
+      "bounds_mm": [
+        [
+          257.25,
+          17.0,
+          20.25000000000002
+        ],
+        [
+          266.75,
+          28.0,
+          29.74999999999998
+        ]
+      ],
+      "volume_mm3": 369.72618541936265
+    },
+    {
+      "name": "REFERENCE thin METAL channel nut side 10L Y",
+      "file": "meshes/070.stl",
+      "bounds_mm": [
+        [
+          255.99999999999997,
+          17.800000000000004,
+          20.6
+        ],
+        [
+          268.0,
+          20.500000000000004,
+          29.400000000000006
+        ]
+      ],
+      "volume_mm3": 227.77965088667605
+    },
+    {
+      "name": "METAL in-bay corner 10R",
+      "file": "meshes/071.stl",
+      "bounds_mm": [
+        [
+          440.0,
+          22.0,
+          17.0
+        ],
+        [
+          458.0,
+          40.0,
+          33.0
+        ]
+      ],
+      "volume_mm3": 1441.4502333433559
+    },
+    {
+      "name": "REFERENCE side M5x8 10R X",
+      "file": "meshes/072.stl",
+      "bounds_mm": [
+        [
+          452.0,
+          29.250000000000004,
+          20.25
+        ],
+        [
+          463.0,
+          38.75000000000001,
+          29.75
+        ]
+      ],
+      "volume_mm3": 369.7261854193304
+    },
+    {
+      "name": "REFERENCE thin METAL channel nut side 10R X",
+      "file": "meshes/073.stl",
+      "bounds_mm": [
+        [
+          459.49999999999994,
+          28.000000000000004,
+          20.6
+        ],
+        [
+          462.2,
+          40.0,
+          29.400000000000006
+        ]
+      ],
+      "volume_mm3": 227.77965088668435
+    },
+    {
+      "name": "REFERENCE side M5x8 10R Y",
+      "file": "meshes/074.stl",
+      "bounds_mm": [
+        [
+          441.24999999999994,
+          17.0,
+          20.249999999999986
+        ],
+        [
+          450.74999999999994,
+          28.0,
+          29.750000000000014
+        ]
+      ],
+      "volume_mm3": 369.72618541936583
+    },
+    {
+      "name": "REFERENCE thin METAL channel nut side 10R Y",
+      "file": "meshes/075.stl",
+      "bounds_mm": [
+        [
+          439.99999999999994,
+          17.800000000000004,
+          20.6
+        ],
+        [
+          451.9999999999999,
+          20.500000000000004,
+          29.400000000000006
+        ]
+      ],
+      "volume_mm3": 227.7796508866732
+    },
+    {
+      "name": "METAL in-bay corner 01L",
+      "file": "meshes/076.stl",
+      "bounds_mm": [
+        [
+          22.0,
+          440.0,
+          17.0
+        ],
+        [
+          40.0,
+          458.0,
+          33.0
+        ]
+      ],
+      "volume_mm3": 1441.4502333433552
+    },
+    {
+      "name": "REFERENCE side M5x8 01L X",
+      "file": "meshes/077.stl",
+      "bounds_mm": [
+        [
+          17.0,
+          441.24999999999994,
+          20.25
+        ],
+        [
+          28.0,
+          450.74999999999994,
+          29.75
+        ]
+      ],
+      "volume_mm3": 369.72618541933286
+    },
+    {
+      "name": "REFERENCE thin METAL channel nut side 01L X",
+      "file": "meshes/078.stl",
+      "bounds_mm": [
+        [
+          17.800000000000004,
+          439.99999999999994,
+          20.6
+        ],
+        [
+          20.500000000000004,
+          451.9999999999999,
+          29.400000000000006
+        ]
+      ],
+      "volume_mm3": 227.77965088668043
+    },
+    {
+      "name": "REFERENCE side M5x8 01L Y",
+      "file": "meshes/079.stl",
+      "bounds_mm": [
+        [
+          29.250000000000004,
+          452.0,
+          20.25
+        ],
+        [
+          38.75000000000001,
+          463.0,
+          29.75
+        ]
+      ],
+      "volume_mm3": 369.72618541936225
+    },
+    {
+      "name": "REFERENCE thin METAL channel nut side 01L Y",
+      "file": "meshes/080.stl",
+      "bounds_mm": [
+        [
+          28.000000000000004,
+          459.49999999999994,
+          20.6
+        ],
+        [
+          40.0,
+          462.2,
+          29.400000000000006
+        ]
+      ],
+      "volume_mm3": 227.77965088667938
+    },
+    {
+      "name": "METAL in-bay corner 01R",
+      "file": "meshes/081.stl",
+      "bounds_mm": [
+        [
+          212.0,
+          440.0,
+          17.0
+        ],
+        [
+          230.0,
+          458.0,
+          33.0
+        ]
+      ],
+      "volume_mm3": 1441.4502333433566
+    },
+    {
+      "name": "REFERENCE side M5x8 01R X",
+      "file": "meshes/082.stl",
+      "bounds_mm": [
+        [
+          224.0,
+          441.24999999999994,
+          20.25
+        ],
+        [
+          235.0,
+          450.74999999999994,
+          29.75
+        ]
+      ],
+      "volume_mm3": 369.72618541933366
+    },
+    {
+      "name": "REFERENCE thin METAL channel nut side 01R X",
+      "file": "meshes/083.stl",
+      "bounds_mm": [
+        [
+          231.5,
+          439.99999999999994,
+          20.6
+        ],
+        [
+          234.2,
+          451.9999999999999,
+          29.400000000000006
+        ]
+      ],
+      "volume_mm3": 227.7796508866801
+    },
+    {
+      "name": "REFERENCE side M5x8 01R Y",
+      "file": "meshes/084.stl",
+      "bounds_mm": [
+        [
+          213.25000000000003,
+          452.0,
+          20.25000000000002
+        ],
+        [
+          222.75,
+          463.0,
+          29.74999999999998
+        ]
+      ],
+      "volume_mm3": 369.7261854193602
+    },
+    {
+      "name": "REFERENCE thin METAL channel nut side 01R Y",
+      "file": "meshes/085.stl",
+      "bounds_mm": [
+        [
+          212.0,
+          459.49999999999994,
+          20.6
+        ],
+        [
+          224.0,
+          462.2,
+          29.400000000000006
+        ]
+      ],
+      "volume_mm3": 227.7796508866786
+    },
+    {
+      "name": "METAL in-bay corner 11L",
+      "file": "meshes/086.stl",
+      "bounds_mm": [
+        [
+          250.0,
+          440.0,
+          17.0
+        ],
+        [
+          268.0,
+          458.0,
+          33.0
+        ]
+      ],
+      "volume_mm3": 1441.4502333433566
+    },
+    {
+      "name": "REFERENCE side M5x8 11L X",
+      "file": "meshes/087.stl",
+      "bounds_mm": [
+        [
+          245.0,
+          441.24999999999994,
+          20.25
+        ],
+        [
+          256.0,
+          450.74999999999994,
+          29.75
+        ]
+      ],
+      "volume_mm3": 369.72618541933366
+    },
+    {
+      "name": "REFERENCE thin METAL channel nut side 11L X",
+      "file": "meshes/088.stl",
+      "bounds_mm": [
+        [
+          245.8,
+          439.99999999999994,
+          20.6
+        ],
+        [
+          248.5,
+          451.9999999999999,
+          29.400000000000006
+        ]
+      ],
+      "volume_mm3": 227.7796508866801
+    },
+    {
+      "name": "REFERENCE side M5x8 11L Y",
+      "file": "meshes/089.stl",
+      "bounds_mm": [
+        [
+          257.25,
+          452.0,
+          20.25000000000002
+        ],
+        [
+          266.75,
+          463.0,
+          29.74999999999998
+        ]
+      ],
+      "volume_mm3": 369.7261854193602
+    },
+    {
+      "name": "REFERENCE thin METAL channel nut side 11L Y",
+      "file": "meshes/090.stl",
+      "bounds_mm": [
+        [
+          255.99999999999997,
+          459.49999999999994,
+          20.6
+        ],
+        [
+          268.0,
+          462.2,
+          29.400000000000006
+        ]
+      ],
+      "volume_mm3": 227.7796508866786
+    },
+    {
+      "name": "METAL in-bay corner 11R",
+      "file": "meshes/091.stl",
+      "bounds_mm": [
+        [
+          440.0,
+          440.0,
+          17.0
+        ],
+        [
+          458.0,
+          458.0,
+          33.0
+        ]
+      ],
+      "volume_mm3": 1441.450233343349
+    },
+    {
+      "name": "REFERENCE side M5x8 11R X",
+      "file": "meshes/092.stl",
+      "bounds_mm": [
+        [
+          452.0,
+          441.24999999999994,
+          20.25
+        ],
+        [
+          463.0,
+          450.74999999999994,
+          29.75
+        ]
+      ],
+      "volume_mm3": 369.7261854193304
+    },
+    {
+      "name": "REFERENCE thin METAL channel nut side 11R X",
+      "file": "meshes/093.stl",
+      "bounds_mm": [
+        [
+          459.49999999999994,
+          439.99999999999994,
+          20.6
+        ],
+        [
+          462.2,
+          451.9999999999999,
+          29.400000000000006
+        ]
+      ],
+      "volume_mm3": 227.77965088668313
+    },
+    {
+      "name": "REFERENCE side M5x8 11R Y",
+      "file": "meshes/094.stl",
+      "bounds_mm": [
+        [
+          441.24999999999994,
+          452.0,
+          20.249999999999986
+        ],
+        [
+          450.74999999999994,
+          463.0,
+          29.750000000000014
+        ]
+      ],
+      "volume_mm3": 369.7261854193634
+    },
+    {
+      "name": "REFERENCE thin METAL channel nut side 11R Y",
+      "file": "meshes/095.stl",
+      "bounds_mm": [
+        [
+          439.99999999999994,
+          459.49999999999994,
+          20.6
+        ],
+        [
+          451.9999999999999,
+          462.2,
+          29.400000000000006
+        ]
+      ],
+      "volume_mm3": 227.77965088667588
+    },
+    {
+      "name": "METAL flush wall tab 00",
+      "file": "meshes/096.stl",
+      "bounds_mm": [
+        [
+          22.0,
+          148.0,
+          15.0
+        ],
+        [
+          44.0,
+          172.0,
+          35.0
+        ]
+      ],
+      "volume_mm3": 2565.9010161327265
+    },
+    {
+      "name": "REFERENCE side M5x8 wall 000",
+      "file": "meshes/097.stl",
+      "bounds_mm": [
+        [
+          17.0,
+          149.25,
+          20.25
+        ],
+        [
+          28.0,
+          158.75,
+          29.75
+        ]
+      ],
+      "volume_mm3": 369.726185419333
+    },
+    {
+      "name": "REFERENCE thin METAL channel nut side wall 000",
+      "file": "meshes/098.stl",
+      "bounds_mm": [
+        [
+          17.800000000000004,
+          148.0,
+          20.6
+        ],
+        [
+          20.500000000000004,
+          160.0,
+          29.400000000000006
+        ]
+      ],
+      "volume_mm3": 227.77965088668162
+    },
+    {
+      "name": "REFERENCE side M5x8 wall 001",
+      "file": "meshes/099.stl",
+      "bounds_mm": [
+        [
+          17.0,
+          161.25,
+          20.25
+        ],
+        [
+          28.0,
+          170.75000000000003,
+          29.75
+        ]
+      ],
+      "volume_mm3": 369.7261854193329
+    },
+    {
+      "name": "REFERENCE thin METAL channel nut side wall 001",
+      "file": "meshes/100.stl",
+      "bounds_mm": [
+        [
+          17.800000000000004,
+          160.0,
+          20.6
+        ],
+        [
+          20.500000000000004,
+          172.0,
+          29.400000000000006
+        ]
+      ],
+      "volume_mm3": 227.7796508866818
+    },
+    {
+      "name": "REFERENCE wall anchor HEAD ONLY 00",
+      "file": "meshes/101.stl",
+      "bounds_mm": [
+        [
+          29.000000000000004,
+          154.0,
+          29.000000000000004
+        ],
+        [
+          41.0,
+          166.0,
+          35.0
+        ]
+      ],
+      "volume_mm3": 424.1150082346396
+    },
+    {
+      "name": "METAL flush wall tab 01",
+      "file": "meshes/102.stl",
+      "bounds_mm": [
+        [
+          22.0,
+          308.0,
+          15.0
+        ],
+        [
+          44.0,
+          332.0,
+          35.0
+        ]
+      ],
+      "volume_mm3": 2565.9010161327283
+    },
+    {
+      "name": "REFERENCE side M5x8 wall 010",
+      "file": "meshes/103.stl",
+      "bounds_mm": [
+        [
+          17.0,
+          309.25,
+          20.25
+        ],
+        [
+          28.0,
+          318.75,
+          29.75
+        ]
+      ],
+      "volume_mm3": 369.72618541933286
+    },
+    {
+      "name": "REFERENCE thin METAL channel nut side wall 010",
+      "file": "meshes/104.stl",
+      "bounds_mm": [
+        [
+          17.800000000000004,
+          308.0,
+          20.6
+        ],
+        [
+          20.500000000000004,
+          319.99999999999994,
+          29.400000000000006
+        ]
+      ],
+      "volume_mm3": 227.7796508866818
+    },
+    {
+      "name": "REFERENCE side M5x8 wall 011",
+      "file": "meshes/105.stl",
+      "bounds_mm": [
+        [
+          17.0,
+          321.25,
+          20.25
+        ],
+        [
+          28.0,
+          330.75,
+          29.75
+        ]
+      ],
+      "volume_mm3": 369.72618541933286
+    },
+    {
+      "name": "REFERENCE thin METAL channel nut side wall 011",
+      "file": "meshes/106.stl",
+      "bounds_mm": [
+        [
+          17.800000000000004,
+          320.0,
+          20.6
+        ],
+        [
+          20.500000000000004,
+          332.0,
+          29.400000000000006
+        ]
+      ],
+      "volume_mm3": 227.77965088668213
+    },
+    {
+      "name": "REFERENCE wall anchor HEAD ONLY 01",
+      "file": "meshes/107.stl",
+      "bounds_mm": [
+        [
+          29.000000000000004,
+          314.0,
+          29.000000000000004
+        ],
+        [
+          41.0,
+          326.0,
+          35.0
+        ]
+      ],
+      "volume_mm3": 424.1150082346396
+    },
+    {
+      "name": "METAL flush wall tab 10",
+      "file": "meshes/108.stl",
+      "bounds_mm": [
+        [
+          435.99999999999994,
+          148.0,
+          15.0
+        ],
+        [
+          458.0,
+          172.0,
+          35.0
+        ]
+      ],
+      "volume_mm3": 2565.901016132715
+    },
+    {
+      "name": "REFERENCE side M5x8 wall 100",
+      "file": "meshes/109.stl",
+      "bounds_mm": [
+        [
+          452.0,
+          149.25,
+          20.25
+        ],
+        [
+          463.0,
+          158.75,
+          29.75
+        ]
+      ],
+      "volume_mm3": 369.7261854193304
+    },
+    {
+      "name": "REFERENCE thin METAL channel nut side wall 100",
+      "file": "meshes/110.stl",
+      "bounds_mm": [
+        [
+          459.49999999999994,
+          148.0,
+          20.6
+        ],
+        [
+          462.2,
+          160.0,
+          29.400000000000006
+        ]
+      ],
+      "volume_mm3": 227.77965088668424
+    },
+    {
+      "name": "REFERENCE side M5x8 wall 101",
+      "file": "meshes/111.stl",
+      "bounds_mm": [
+        [
+          452.0,
+          161.25,
+          20.25
+        ],
+        [
+          463.0,
+          170.75000000000003,
+          29.75
+        ]
+      ],
+      "volume_mm3": 369.7261854193304
+    },
+    {
+      "name": "REFERENCE thin METAL channel nut side wall 101",
+      "file": "meshes/112.stl",
+      "bounds_mm": [
+        [
+          459.49999999999994,
+          160.0,
+          20.6
+        ],
+        [
+          462.2,
+          172.0,
+          29.400000000000006
+        ]
+      ],
+      "volume_mm3": 227.77965088668438
+    },
+    {
+      "name": "REFERENCE wall anchor HEAD ONLY 10",
+      "file": "meshes/113.stl",
+      "bounds_mm": [
+        [
+          439.0,
+          154.0,
+          29.000000000000004
+        ],
+        [
+          451.0,
+          166.0,
+          35.0
+        ]
+      ],
+      "volume_mm3": 424.115008234641
+    },
+    {
+      "name": "METAL flush wall tab 11",
+      "file": "meshes/114.stl",
+      "bounds_mm": [
+        [
+          435.99999999999994,
+          308.0,
+          15.0
+        ],
+        [
+          458.0,
+          332.0,
+          35.0
+        ]
+      ],
+      "volume_mm3": 2565.9010161327183
+    },
+    {
+      "name": "REFERENCE side M5x8 wall 110",
+      "file": "meshes/115.stl",
+      "bounds_mm": [
+        [
+          452.0,
+          309.25,
+          20.25
+        ],
+        [
+          463.0,
+          318.75,
+          29.75
+        ]
+      ],
+      "volume_mm3": 369.7261854193304
+    },
+    {
+      "name": "REFERENCE thin METAL channel nut side wall 110",
+      "file": "meshes/116.stl",
+      "bounds_mm": [
+        [
+          459.49999999999994,
+          308.0,
+          20.6
+        ],
+        [
+          462.2,
+          319.99999999999994,
+          29.400000000000006
+        ]
+      ],
+      "volume_mm3": 227.77965088668438
+    },
+    {
+      "name": "REFERENCE side M5x8 wall 111",
+      "file": "meshes/117.stl",
+      "bounds_mm": [
+        [
+          452.0,
+          321.25,
+          20.25
+        ],
+        [
+          463.0,
+          330.75,
+          29.75
+        ]
+      ],
+      "volume_mm3": 369.7261854193304
+    },
+    {
+      "name": "REFERENCE thin METAL channel nut side wall 111",
+      "file": "meshes/118.stl",
+      "bounds_mm": [
+        [
+          459.49999999999994,
+          320.0,
+          20.6
+        ],
+        [
+          462.2,
+          332.0,
+          29.400000000000006
+        ]
+      ],
+      "volume_mm3": 227.77965088668478
+    },
+    {
+      "name": "REFERENCE wall anchor HEAD ONLY 11",
+      "file": "meshes/119.stl",
+      "bounds_mm": [
+        [
+          439.0,
+          314.0,
+          29.000000000000004
+        ],
+        [
+          451.0,
+          326.0,
+          35.0
+        ]
+      ],
+      "volume_mm3": 424.115008234641
+    }
+  ]
+}

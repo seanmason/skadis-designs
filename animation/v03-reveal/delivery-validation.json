@@ -1,0 +1,30 @@
+{
+  "file": "infinite-skadis-reveal.mp4",
+  "size_bytes": 6508122,
+  "decoded_frames": 600,
+  "fps": 24,
+  "duration_seconds": 25.0,
+  "dimensions": [
+    1280,
+    720
+  ],
+  "codec": "H.264 / yuv420p",
+  "silent": true,
+  "intro_hold_source_frame": 72,
+  "outro_hold_source_frame": 504,
+  "sample_mean_brightness": [
+    84.36368995949074,
+    77.37977358217593,
+    73.61918113425926,
+    78.89924117476852,
+    62.855429325810185,
+    55.802469618055554,
+    56.14278935185185,
+    53.80728515625,
+    61.258802083333336,
+    74.82243381076388,
+    82.5995652488426,
+    82.59026909722222
+  ],
+  "all_frames_decoded": true
+}

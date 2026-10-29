@@ -4,6 +4,12 @@ An original Autodesk Fusion parametric pegboard system for a future pixel-art in
 
 **Status: v0.3 flush-wall CAD prototype. CAD validation is not physical validation.** No installation load rating, print-fit result, or universal IKEA accessory compatibility is claimed.
 
+## Product-reveal animation
+
+[Animation source and production notes](animation/v03-reveal/README.md) for a 480 × 480 mm parameterization: four 240 mm panels and 120 actual CAD components, presented with rotation, an exploded view and reassembly. Includes a separate native Fusion assembly and an editable Blender scene; materials and exploded paths are illustrative.
+
+[Watch the 25-second MP4](animation/v03-reveal/infinite-skadis-reveal.mp4) · [Poster](animation/v03-reveal/poster.png) · [Editable Blender scene](animation/v03-reveal/reveal.blend)
+
 ## v0.3 flush-wall revision
 
 - [Assembly review, measured profile, hardware cautions and installation sequence](docs/assembly-review-v03.md)

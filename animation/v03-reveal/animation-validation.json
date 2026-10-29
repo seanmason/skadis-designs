@@ -1,0 +1,15 @@
+{
+  "CAD_parts": 120,
+  "frames": 600,
+  "fps": 24,
+  "duration_seconds": 25,
+  "framing_extents_normalized": [
+    0.26365533471107483,
+    0.043471530079841614,
+    0.7712213397026062,
+    0.8689723610877991
+  ],
+  "all_frames_within_safe_border": true,
+  "assembled_positions_restored": true,
+  "explosion_is_presentation_not_installation_simulation": true
+}
