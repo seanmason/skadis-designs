@@ -1,4 +1,6 @@
-# H2D first-print protocol
+# Historical v0.1 H2D first-print protocol
+
+**Archived instructions: do not use the M2×8 screws, printed pilots or bridge parts below for v0.4.** See the [v0.4 assembly and hardware notes](assembly-review-v04.md) and the [critical review's prototype/release sequence](design-review-2026-10-29.md#prototype-and-release-sequence) for the current work. The text below records the original experiment.
 
 These are starting settings, not a sliced or printed profile. No print time or filament mass is claimed.
 

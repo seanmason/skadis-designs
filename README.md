@@ -4,6 +4,8 @@ An original Autodesk Fusion parametric pegboard system for a future pixel-art in
 
 **Status: v0.4 flush-screw CAD prototype. CAD validation is not physical validation.** No installation load rating, print-fit result, or universal IKEA accessory compatibility is claimed.
 
+[Critical design review and proposed next revision](docs/design-review-2026-10-29.md): preferred whole-slot stepped seams, mosaic serviceability, real hardware selection and a staged physical test plan. These proposals have not changed the v0.4 CAD.
+
 ## v0.4 clean-face revision
 
 - [Assembly sequence, hardware and prototype limitations](docs/assembly-review-v04.md)
@@ -55,9 +57,9 @@ This revision adds rounded slot entrances, complete-slot finished borders, round
 ## Files
 
 - [Original finished-edge and extrusion-frame proposal](docs/frame-architecture-v02.md) — historical design rationale; see the v0.2 CAD notes for implemented details.
-- [Design decisions and limitations](docs/design-brief.md)
+- [Historical v0.1 design brief](docs/design-brief.md)
 - [MakerWorld research](docs/reference-designs.md)
-- [Printing and fit-test protocol](docs/print-and-test.md)
+- [Historical v0.1 printing protocol](docs/print-and-test.md) — use the current review/assembly notes for v0.4 work.
 - [Native Fusion master](models/infinite-skadis-hd-v01.f3d)
 - [Four-panel coupon assembly](models/coupon-assembly-2x2-fixed80.f3d) — fixed 80 mm layout, with nominal hardware references; resize the master instead.
 - [Assembly front preview](previews/assembly-front.png) and [rear preview](previews/assembly-rear.png)
