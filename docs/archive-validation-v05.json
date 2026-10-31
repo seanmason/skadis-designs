@@ -1,0 +1,12 @@
+{
+  "reopened_native_archive": true,
+  "health": {
+    "healthy": true,
+    "fully_constrained_sketches": true,
+    "components": 143,
+    "timeline_features": 850,
+    "timeline_groups": 19
+  },
+  "panel_pitch_mm": 240,
+  "seam_gap_mm": 0.35
+}

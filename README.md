@@ -2,9 +2,19 @@
 
 An original Autodesk Fusion parametric pegboard system for a future pixel-art installation, printed on a Bambu Lab H2D.
 
-**Status: v0.4 flush-screw CAD prototype. CAD validation is not physical validation.** No installation load rating, print-fit result, or universal IKEA accessory compatibility is claimed.
+**Status: v0.5 stepped-seam CAD prototype and interface test parts. CAD validation is not physical validation.** No installation load rating, print-fit result, or universal IKEA accessory compatibility is claimed.
 
-[Critical design review and proposed next revision](docs/design-review-2026-10-29.md): preferred whole-slot stepped seams, mosaic serviceability, real hardware selection and a staged physical test plan. These proposals have not changed the v0.4 CAD.
+[Critical design review](docs/design-review-2026-10-29.md): the basis for the v0.5 prototype direction. Historical v0.4 files are preserved.
+
+## v0.5 whole-slot stepped seams
+
+- [Assembly sequence, test parts and release boundaries](docs/assembly-review-v05.md)
+- [Native 480 mm Fusion assembly](models/v05/frame-assembly-v05.f3d), [STEP](models/v05/frame-assembly-v05.step), and [printable panel/carrier parts](models/v05/)
+- [Front](models/v05/front.png), [seam detail](models/v05/seam-detail.png), and [rear](models/v05/rear.png)
+- [Native prototype library](models/v05/prototypes/): panel comparisons, surrounded seam tests, carrier jig, axial mosaic tiles, handling tool and metal-clamp study
+- [Assembly generator](fusion/FrameSystemV05.py), [prototype generator](fusion/PrototypeToolsV05.py), and [assembly clearance checks](docs/validation-v05.json)
+
+240 mm modules use complete slots at their stepped seams and four flush screws per panel. Integral retaining springs replace loose carrier nut keepers. The 480 mm test frame preserves the provisional 10 mm hook cavity and flush-wall extrusion arrangement. The separate metal-clamp study has a different stack and is not installed in the assembly. Mosaic snap fit, springs, tooling and all supplier-specific hardware remain subject to physical testing.
 
 ## v0.4 clean-face revision
 
@@ -59,7 +69,7 @@ This revision adds rounded slot entrances, complete-slot finished borders, round
 - [Original finished-edge and extrusion-frame proposal](docs/frame-architecture-v02.md) — historical design rationale; see the v0.2 CAD notes for implemented details.
 - [Historical v0.1 design brief](docs/design-brief.md)
 - [MakerWorld research](docs/reference-designs.md)
-- [Historical v0.1 printing protocol](docs/print-and-test.md) — use the current review/assembly notes for v0.4 work.
+- [Historical v0.1 printing protocol](docs/print-and-test.md) — use the current v0.5 assembly and prototype notes for new prints.
 - [Native Fusion master](models/infinite-skadis-hd-v01.f3d)
 - [Four-panel coupon assembly](models/coupon-assembly-2x2-fixed80.f3d) — fixed 80 mm layout, with nominal hardware references; resize the master instead.
 - [Assembly front preview](previews/assembly-front.png) and [rear preview](previews/assembly-rear.png)

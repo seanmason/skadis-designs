@@ -1,0 +1,453 @@
+[
+  {
+    "file": "models\\v05\\carrier-double-captive.stl",
+    "triangles": 1428,
+    "closed_edge_incidence": true,
+    "bounds_mm": [
+      30.0,
+      31.0,
+      18.4
+    ],
+    "volume_mm3": 6477.539
+  },
+  {
+    "file": "models\\v05\\carrier-single-captive.stl",
+    "triangles": 900,
+    "closed_edge_incidence": true,
+    "bounds_mm": [
+      20.0,
+      31.0,
+      18.4
+    ],
+    "volume_mm3": 4229.813
+  },
+  {
+    "file": "models\\v05\\panel-lower-left-240.stl",
+    "triangles": 316836,
+    "closed_edge_incidence": true,
+    "bounds_mm": [
+      239.65,
+      249.65,
+      5.0
+    ],
+    "volume_mm3": 192191.299
+  },
+  {
+    "file": "models\\v05\\panel-lower-right-240.stl",
+    "triangles": 316836,
+    "closed_edge_incidence": true,
+    "bounds_mm": [
+      239.65,
+      249.65,
+      5.0
+    ],
+    "volume_mm3": 192191.357
+  },
+  {
+    "file": "models\\v05\\panel-upper-left-240.stl",
+    "triangles": 303876,
+    "closed_edge_incidence": true,
+    "bounds_mm": [
+      239.65,
+      239.65,
+      5.0
+    ],
+    "volume_mm3": 184415.417
+  },
+  {
+    "file": "models\\v05\\panel-upper-right-240.stl",
+    "triangles": 303876,
+    "closed_edge_incidence": true,
+    "bounds_mm": [
+      239.65,
+      239.65,
+      5.0
+    ],
+    "volume_mm3": 184415.472
+  },
+  {
+    "file": "models\\v05\\prototypes\\axial-mosaic-tile--COLOR-pixel-lower.stl",
+    "triangles": 12,
+    "closed_edge_incidence": true,
+    "bounds_mm": [
+      9.6,
+      9.6,
+      1.2
+    ],
+    "volume_mm3": 110.592
+  },
+  {
+    "file": "models\\v05\\prototypes\\axial-mosaic-tile--COLOR-pixel-upper.stl",
+    "triangles": 12,
+    "closed_edge_incidence": true,
+    "bounds_mm": [
+      9.6,
+      9.6,
+      1.2
+    ],
+    "volume_mm3": 110.592
+  },
+  {
+    "file": "models\\v05\\prototypes\\axial-mosaic-tile--PRINT-fit-coupon.stl",
+    "triangles": 3892,
+    "closed_edge_incidence": true,
+    "bounds_mm": [
+      20.0,
+      40.0,
+      5.0
+    ],
+    "volume_mm3": 3297.667
+  },
+  {
+    "file": "models\\v05\\prototypes\\axial-mosaic-tile--PRINT-tile-core.stl",
+    "triangles": 84,
+    "closed_edge_incidence": true,
+    "bounds_mm": [
+      9.0,
+      19.0,
+      7.9
+    ],
+    "volume_mm3": 343.956
+  },
+  {
+    "file": "models\\v05\\prototypes\\axial-mosaic-tile-bottom-terminal--COLOR-pixel-lower.stl",
+    "triangles": 12,
+    "closed_edge_incidence": true,
+    "bounds_mm": [
+      9.6,
+      9.6,
+      1.2
+    ],
+    "volume_mm3": 110.592
+  },
+  {
+    "file": "models\\v05\\prototypes\\axial-mosaic-tile-bottom-terminal--COLOR-pixel-terminal.stl",
+    "triangles": 12,
+    "closed_edge_incidence": true,
+    "bounds_mm": [
+      9.6,
+      9.6,
+      1.2
+    ],
+    "volume_mm3": 110.592
+  },
+  {
+    "file": "models\\v05\\prototypes\\axial-mosaic-tile-bottom-terminal--COLOR-pixel-upper.stl",
+    "triangles": 12,
+    "closed_edge_incidence": true,
+    "bounds_mm": [
+      9.6,
+      9.6,
+      1.2
+    ],
+    "volume_mm3": 110.592
+  },
+  {
+    "file": "models\\v05\\prototypes\\axial-mosaic-tile-bottom-terminal--PRINT-fit-coupon.stl",
+    "triangles": 3892,
+    "closed_edge_incidence": true,
+    "bounds_mm": [
+      20.0,
+      40.0,
+      5.0
+    ],
+    "volume_mm3": 3297.667
+  },
+  {
+    "file": "models\\v05\\prototypes\\axial-mosaic-tile-bottom-terminal--PRINT-tile-core.stl",
+    "triangles": 84,
+    "closed_edge_incidence": true,
+    "bounds_mm": [
+      9.0,
+      29.0,
+      7.9
+    ],
+    "volume_mm3": 415.956
+  },
+  {
+    "file": "models\\v05\\prototypes\\axial-mosaic-tile-top-terminal--COLOR-pixel-lower.stl",
+    "triangles": 12,
+    "closed_edge_incidence": true,
+    "bounds_mm": [
+      9.6,
+      9.6,
+      1.2
+    ],
+    "volume_mm3": 110.592
+  },
+  {
+    "file": "models\\v05\\prototypes\\axial-mosaic-tile-top-terminal--COLOR-pixel-terminal.stl",
+    "triangles": 12,
+    "closed_edge_incidence": true,
+    "bounds_mm": [
+      9.6,
+      9.6,
+      1.2
+    ],
+    "volume_mm3": 110.592
+  },
+  {
+    "file": "models\\v05\\prototypes\\axial-mosaic-tile-top-terminal--COLOR-pixel-upper.stl",
+    "triangles": 12,
+    "closed_edge_incidence": true,
+    "bounds_mm": [
+      9.6,
+      9.6,
+      1.2
+    ],
+    "volume_mm3": 110.592
+  },
+  {
+    "file": "models\\v05\\prototypes\\axial-mosaic-tile-top-terminal--PRINT-fit-coupon.stl",
+    "triangles": 3892,
+    "closed_edge_incidence": true,
+    "bounds_mm": [
+      20.0,
+      40.0,
+      5.0
+    ],
+    "volume_mm3": 3297.667
+  },
+  {
+    "file": "models\\v05\\prototypes\\axial-mosaic-tile-top-terminal--PRINT-tile-core.stl",
+    "triangles": 84,
+    "closed_edge_incidence": true,
+    "bounds_mm": [
+      9.0,
+      29.0,
+      7.9
+    ],
+    "volume_mm3": 415.956
+  },
+  {
+    "file": "models\\v05\\prototypes\\carrier-jig-240--PRINT-alignment-jig.stl",
+    "triangles": 1272,
+    "closed_edge_incidence": true,
+    "bounds_mm": [
+      232.0,
+      212.0,
+      5.0
+    ],
+    "volume_mm3": 49445.216
+  },
+  {
+    "file": "models\\v05\\prototypes\\metal-clamp-study--CUSTOM-METAL-flanged-countersunk-limiter.stl",
+    "triangles": 1196,
+    "closed_edge_incidence": true,
+    "bounds_mm": [
+      12.0,
+      11.9943,
+      6.8
+    ],
+    "volume_mm3": 327.963
+  },
+  {
+    "file": "models\\v05\\prototypes\\metal-clamp-study--METAL-rear-spreader-washer-12x5.5x1.stl",
+    "triangles": 704,
+    "closed_edge_incidence": true,
+    "bounds_mm": [
+      11.9973,
+      11.9987,
+      1.0
+    ],
+    "volume_mm3": 89.303
+  },
+  {
+    "file": "models\\v05\\prototypes\\metal-clamp-study--PRINT-clamp-coupon.stl",
+    "triangles": 500,
+    "closed_edge_incidence": true,
+    "bounds_mm": [
+      30.0,
+      31.0,
+      7.0
+    ],
+    "volume_mm3": 5949.052
+  },
+  {
+    "file": "models\\v05\\prototypes\\panel-bottom-edge-240-gap-0.35--Panel-bottom-edge.stl",
+    "triangles": 316772,
+    "closed_edge_incidence": true,
+    "bounds_mm": [
+      239.65,
+      249.65,
+      5.0
+    ],
+    "volume_mm3": 192230.56
+  },
+  {
+    "file": "models\\v05\\prototypes\\panel-handling-tool-concept--PRINT-handle-bridge.stl",
+    "triangles": 332,
+    "closed_edge_incidence": true,
+    "bounds_mm": [
+      54.0,
+      14.0,
+      5.0
+    ],
+    "volume_mm3": 3560.335
+  },
+  {
+    "file": "models\\v05\\prototypes\\panel-handling-tool-concept--PRINT-quarter-turn-key-0-mm.stl",
+    "triangles": 836,
+    "closed_edge_incidence": true,
+    "bounds_mm": [
+      9.0,
+      4.0,
+      26.0
+    ],
+    "volume_mm3": 355.393
+  },
+  {
+    "file": "models\\v05\\prototypes\\panel-handling-tool-concept--PRINT-quarter-turn-key-handlePitch.stl",
+    "triangles": 836,
+    "closed_edge_incidence": true,
+    "bounds_mm": [
+      9.0,
+      4.0,
+      26.0
+    ],
+    "volume_mm3": 355.393
+  },
+  {
+    "file": "models\\v05\\prototypes\\panel-handling-tool-concept--PRINT-thumb-knob-0-mm.stl",
+    "triangles": 732,
+    "closed_edge_incidence": true,
+    "bounds_mm": [
+      11.9972,
+      11.9986,
+      5.0
+    ],
+    "volume_mm3": 517.793
+  },
+  {
+    "file": "models\\v05\\prototypes\\panel-handling-tool-concept--PRINT-thumb-knob-handlePitch.stl",
+    "triangles": 732,
+    "closed_edge_incidence": true,
+    "bounds_mm": [
+      11.9972,
+      11.9986,
+      5.0
+    ],
+    "volume_mm3": 517.793
+  },
+  {
+    "file": "models\\v05\\prototypes\\panel-handling-tool-concept--REFERENCE-handle-M2x6-0-mm.stl",
+    "triangles": 646,
+    "closed_edge_incidence": true,
+    "bounds_mm": [
+      3.7984,
+      3.7992,
+      6.0
+    ],
+    "volume_mm3": 21.345
+  },
+  {
+    "file": "models\\v05\\prototypes\\panel-handling-tool-concept--REFERENCE-handle-M2x6-handlePitch.stl",
+    "triangles": 646,
+    "closed_edge_incidence": true,
+    "bounds_mm": [
+      3.7984,
+      3.7992,
+      6.0
+    ],
+    "volume_mm3": 21.345
+  },
+  {
+    "file": "models\\v05\\prototypes\\panel-interior-240-gap-0.35--Panel-interior.stl",
+    "triangles": 324540,
+    "closed_edge_incidence": true,
+    "bounds_mm": [
+      239.65,
+      249.65,
+      5.0
+    ],
+    "volume_mm3": 186039.666
+  },
+  {
+    "file": "models\\v05\\prototypes\\panel-interior-280-gap-0.35--Panel-interior.stl",
+    "triangles": 436332,
+    "closed_edge_incidence": true,
+    "bounds_mm": [
+      279.65,
+      289.65,
+      5.0
+    ],
+    "volume_mm3": 253531.323
+  },
+  {
+    "file": "models\\v05\\prototypes\\panel-left-edge-240-gap-0.35--Panel-left-edge.stl",
+    "triangles": 324540,
+    "closed_edge_incidence": true,
+    "bounds_mm": [
+      239.65,
+      249.65,
+      5.0
+    ],
+    "volume_mm3": 186039.666
+  },
+  {
+    "file": "models\\v05\\prototypes\\panel-right-edge-240-gap-0.35--Panel-right-edge.stl",
+    "triangles": 324540,
+    "closed_edge_incidence": true,
+    "bounds_mm": [
+      239.65,
+      249.65,
+      5.0
+    ],
+    "volume_mm3": 186039.666
+  },
+  {
+    "file": "models\\v05\\prototypes\\panel-standalone-240-gap-0.35--Panel-standalone.stl",
+    "triangles": 296316,
+    "closed_edge_incidence": true,
+    "bounds_mm": [
+      239.65,
+      239.65,
+      5.0
+    ],
+    "volume_mm3": 190488.482
+  },
+  {
+    "file": "models\\v05\\prototypes\\panel-top-edge-240-gap-0.35--Panel-top-edge.stl",
+    "triangles": 303812,
+    "closed_edge_incidence": true,
+    "bounds_mm": [
+      239.65,
+      239.65,
+      5.0
+    ],
+    "volume_mm3": 184454.631
+  },
+  {
+    "file": "models\\v05\\prototypes\\seam-array-3x3-gap-0.2--Panel-80-mm-whole-slot-coupon.stl",
+    "triangles": 42476,
+    "closed_edge_incidence": true,
+    "bounds_mm": [
+      79.8,
+      89.8,
+      5.0
+    ],
+    "volume_mm3": 20414.382
+  },
+  {
+    "file": "models\\v05\\prototypes\\seam-array-3x3-gap-0.35--Panel-80-mm-whole-slot-coupon.stl",
+    "triangles": 42460,
+    "closed_edge_incidence": true,
+    "bounds_mm": [
+      79.65,
+      89.65,
+      5.0
+    ],
+    "volume_mm3": 20242.315
+  },
+  {
+    "file": "models\\v05\\prototypes\\seam-array-3x3-gap-0.5--Panel-80-mm-whole-slot-coupon.stl",
+    "triangles": 42508,
+    "closed_edge_incidence": true,
+    "bounds_mm": [
+      79.5,
+      89.5,
+      5.0
+    ],
+    "volume_mm3": 20070.474
+  }
+]

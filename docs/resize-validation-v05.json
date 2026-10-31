@@ -1,0 +1,50 @@
+[
+  {
+    "cells": 4,
+    "whole_slot_loops": 32,
+    "bounds_mm": [
+      79.65,
+      89.65,
+      5.0
+    ],
+    "health": {
+      "healthy": true,
+      "fully_constrained_sketches": true,
+      "components": 1,
+      "timeline_features": 49,
+      "timeline_groups": 0
+    }
+  },
+  {
+    "cells": 14,
+    "whole_slot_loops": 392,
+    "bounds_mm": [
+      279.65000000000003,
+      289.65000000000003,
+      5.0
+    ],
+    "health": {
+      "healthy": true,
+      "fully_constrained_sketches": true,
+      "components": 1,
+      "timeline_features": 49,
+      "timeline_groups": 0
+    }
+  },
+  {
+    "cells": 12,
+    "whole_slot_loops": 288,
+    "bounds_mm": [
+      239.65000000000003,
+      249.65000000000003,
+      5.0
+    ],
+    "health": {
+      "healthy": true,
+      "fully_constrained_sketches": true,
+      "components": 1,
+      "timeline_features": 49,
+      "timeline_groups": 0
+    }
+  }
+]
