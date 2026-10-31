@@ -1,0 +1,25 @@
+{
+  "cad_instances": 143,
+  "unique_cad_meshes": 49,
+  "mosaic_tiles": 288,
+  "duration_seconds": 60,
+  "fps": 24,
+  "frames": 1440,
+  "shots": 14,
+  "maximum_within_shot_camera_rotation_radians": 0.0006905339541845024,
+  "notes": [
+    "Intentional cuts at shot boundaries",
+    "Spring and snap deflections are illustrative, not force simulation",
+    "Wall anchors and frame hardware remain provisional",
+    "Exploded overview is not an installation path",
+    "Metal clamp study is not included in assembly"
+  ],
+  "assembled_pose_frames_verified": [
+    96,
+    888,
+    1440
+  ],
+  "independent_service_panel_pose_verified": true,
+  "rail_nut_insertion_monotonic": true,
+  "first_tile_remains_installed_during_art_build": true
+}

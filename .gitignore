@@ -7,3 +7,6 @@ animation/**/*.log
 animation/**/*.blend1
 animation/**/render-progress.json
 animation/**/*.working.mp4
+animation/v07-assembly/preview/
+animation/v07-assembly/frames-transfer.tar
+animation/v07-assembly/preview-contact-sheet.jpg

@@ -1,0 +1,101 @@
+{
+  "frames": 1440,
+  "duration_seconds": 60.0,
+  "dimensions": [
+    1920,
+    1080
+  ],
+  "fps": 24.0,
+  "bytes": 22636319,
+  "minimum_frame_brightness": 19.730417251586914,
+  "largest_within_shot_brightness_spikes": [
+    [
+      2.565694808959961,
+      438
+    ],
+    [
+      2.563091278076172,
+      439
+    ],
+    [
+      1.6984939575195312,
+      101
+    ],
+    [
+      1.5632171630859375,
+      1180
+    ],
+    [
+      1.5541229248046875,
+      1268
+    ],
+    [
+      1.5500564575195312,
+      1373
+    ],
+    [
+      1.53009033203125,
+      1179
+    ],
+    [
+      1.5192947387695312,
+      212
+    ]
+  ],
+  "largest_within_shot_image_spikes": [
+    [
+      3.7428934574127197,
+      581
+    ],
+    [
+      3.427013874053955,
+      438
+    ],
+    [
+      3.417742967605591,
+      439
+    ],
+    [
+      2.9497106075286865,
+      1037
+    ],
+    [
+      2.726921319961548,
+      580
+    ],
+    [
+      2.5577199459075928,
+      1205
+    ],
+    [
+      2.2368288040161133,
+      831
+    ],
+    [
+      2.2261111736297607,
+      830
+    ]
+  ],
+  "intentional_cut_frames": [
+    1,
+    97,
+    217,
+    313,
+    433,
+    577,
+    697,
+    889,
+    961,
+    1033,
+    1129,
+    1201,
+    1273,
+    1369
+  ],
+  "all_frames_decoded": true,
+  "visual_review": {
+    "status": "passed",
+    "reviewed": "14 representative decoded captioned frames, full-resolution poster, seam, tile and service views; adjacent source frames 437-440, 579-582 and 829-832",
+    "notes": "Largest inspected discontinuities are persistent staged part appearances, not isolated corrupted frames. Intentional camera cuts separate chapters."
+  }
+}

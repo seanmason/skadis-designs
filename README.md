@@ -26,7 +26,13 @@ An original Autodesk Fusion parametric pegboard system for a future pixel-art in
 
 Four small flush M2 heads retain each panel independently. Integrated support blades and captive metal nuts replace the large front caps, restoring the mounting-node slots. Shared rear carriers register vertical seams and bolt to the extrusion with recessed M5 fixings. The 10 mm provisional hook cavity is preserved; the revised carrier stack gives a 42 mm face-to-wall distance with the extrusion rear against the wall. This supersedes the earlier v0.4 clearance-only study.
 
-## Product-reveal animation
+## Features and assembly animation
+
+[Watch the 60-second captioned film](animation/v07-assembly/skadis-v05-assembly.mp4) · [Poster](animation/v07-assembly/poster.jpg) · [Source and sequence](animation/v07-assembly/README.md)
+
+The current v0.5 CAD demonstrates rail-nut loading, frame construction, captive carriers, the alignment jig, front panel installation, whole-slot seams, the hook cavity, mosaic tiles and independent panel service. Rendered with the RTX 3080; experimental retention and handling details are identified as prototypes.
+
+## Earlier product-reveal animation
 
 [Animation source and production notes](animation/v03-reveal/README.md) for a 480 × 480 mm parameterization: four 240 mm panels and 120 actual CAD components, presented with rotation, an exploded view and reassembly. Includes a separate native Fusion assembly and an editable Blender scene; materials and exploded paths are illustrative.
 

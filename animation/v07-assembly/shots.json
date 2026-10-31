@@ -1,0 +1,100 @@
+[
+  {
+    "start": 1,
+    "end": 96,
+    "key": "reveal",
+    "title": "Infinite SK\u00c5DIS HD",
+    "subtitle": "240 mm panels \u00b7 480 mm frame \u00b7 v0.5 CAD prototype"
+  },
+  {
+    "start": 97,
+    "end": 216,
+    "key": "explode",
+    "title": "A system of replaceable parts",
+    "subtitle": "Printed panels \u00b7 carriers \u00b7 fasteners \u00b7 2020 frame"
+  },
+  {
+    "start": 217,
+    "end": 312,
+    "key": "nuts",
+    "title": "Load the rail nuts first",
+    "subtitle": "Slide channel nuts through the open extrusion ends."
+  },
+  {
+    "start": 313,
+    "end": 432,
+    "key": "frame",
+    "title": "Build and mount the frame",
+    "subtitle": "Join the frame with flush wall tabs \u00b7 hardware is provisional."
+  },
+  {
+    "start": 433,
+    "end": 576,
+    "key": "carriers",
+    "title": "Captive nuts. Clear hook space.",
+    "subtitle": "Integral spring stops retain M2 nuts \u00b7 fit-test prototype"
+  },
+  {
+    "start": 577,
+    "end": 696,
+    "key": "jig",
+    "title": "Align before tightening",
+    "subtitle": "The jig locates carriers and leaves M5 access open."
+  },
+  {
+    "start": 697,
+    "end": 888,
+    "key": "panels",
+    "title": "Install panels from the front",
+    "subtitle": "Four flush M2 screws retain each panel independently."
+  },
+  {
+    "start": 889,
+    "end": 960,
+    "key": "seam",
+    "title": "Whole slots across every seam",
+    "subtitle": "Stepped edges follow the 10 mm pixel grid."
+  },
+  {
+    "start": 961,
+    "end": 1032,
+    "key": "cavity",
+    "title": "Room behind the board",
+    "subtitle": "10 mm hook cavity between support blades \u00b7 to be tested"
+  },
+  {
+    "start": 1033,
+    "end": 1128,
+    "key": "tile",
+    "title": "Two pixels per tile",
+    "subtitle": "Axial push-in retention \u00b7 fit-test prototype"
+  },
+  {
+    "start": 1129,
+    "end": 1200,
+    "key": "art",
+    "title": "Build the artwork one tile at a time",
+    "subtitle": "Separate color regions share one printed core."
+  },
+  {
+    "start": 1201,
+    "end": 1272,
+    "key": "handle",
+    "title": "Clear access and engage the handle",
+    "subtitle": "Quarter-turn keys support the panel \u00b7 handling concept"
+  },
+  {
+    "start": 1273,
+    "end": 1368,
+    "key": "service",
+    "title": "Service one panel from the front",
+    "subtitle": "Remove its screws, then withdraw the panel and artwork."
+  },
+  {
+    "start": 1369,
+    "end": 1440,
+    "key": "finish",
+    "title": "An expandable canvas",
+    "subtitle": "Print-test the interfaces before scaling up."
+  }
+]

@@ -6,3 +6,4 @@
 *.md text
 *.csv text
 *.json text
+*.sh text eol=lf

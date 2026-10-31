@@ -1,0 +1,4590 @@
+{
+  "source": "models/v05/frame-assembly-v05.f3d",
+  "units": "mm",
+  "health": {
+    "healthy": true,
+    "fully_constrained_sketches": true,
+    "components": 143,
+    "timeline_features": 850,
+    "timeline_groups": 19
+  },
+  "unique_meshes": 49,
+  "parts": [
+    {
+      "name": "Vertical rail 0 - measured sloped-slot approximation:1",
+      "component": "Vertical rail 0 - measured sloped-slot approximation",
+      "file": "meshes/part-000.stl",
+      "transform_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 78052.12185556992
+    },
+    {
+      "name": "Vertical rail 1 - measured sloped-slot approximation:1",
+      "component": "Vertical rail 1 - measured sloped-slot approximation",
+      "file": "meshes/part-001.stl",
+      "transform_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 78052.12185556983
+    },
+    {
+      "name": "Vertical rail 2 - measured sloped-slot approximation:1",
+      "component": "Vertical rail 2 - measured sloped-slot approximation",
+      "file": "meshes/part-002.stl",
+      "transform_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 78052.12185557035
+    },
+    {
+      "name": "Horizontal tie 00 - measured sloped-slot approximation:1",
+      "component": "Horizontal tie 00 - measured sloped-slot approximation",
+      "file": "meshes/part-003.stl",
+      "transform_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 34434.75964216356
+    },
+    {
+      "name": "Horizontal tie 10 - measured sloped-slot approximation:1",
+      "component": "Horizontal tie 10 - measured sloped-slot approximation",
+      "file": "meshes/part-004.stl",
+      "transform_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 34434.75964216356
+    },
+    {
+      "name": "Horizontal tie 01 - measured sloped-slot approximation:1",
+      "component": "Horizontal tie 01 - measured sloped-slot approximation",
+      "file": "meshes/part-005.stl",
+      "transform_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 34434.75964216382
+    },
+    {
+      "name": "Horizontal tie 11 - measured sloped-slot approximation:1",
+      "component": "Horizontal tie 11 - measured sloped-slot approximation",
+      "file": "meshes/part-006.stl",
+      "transform_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 34434.75964216382
+    },
+    {
+      "name": "PRINT carrier 00 single:1",
+      "component": "PRINT carrier 00 single",
+      "file": "meshes/part-007.stl",
+      "transform_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 4228.933171246841
+    },
+    {
+      "name": "METAL M2 nut 000:1",
+      "component": "METAL M2 nut 000",
+      "file": "meshes/part-008.stl",
+      "transform_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 16.62848335906735
+    },
+    {
+      "name": "REFERENCE panel M2x20 000:1",
+      "component": "REFERENCE panel M2x20 000",
+      "file": "meshes/part-009.stl",
+      "transform_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 65.36802513602318
+    },
+    {
+      "name": "REFERENCE carrier M5x12 00:1",
+      "component": "REFERENCE carrier M5x12 00",
+      "file": "meshes/part-010.stl",
+      "transform_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 277.93427954668175
+    },
+    {
+      "name": "METAL channel nut 00:1",
+      "component": "METAL channel nut 00",
+      "file": "meshes/part-011.stl",
+      "transform_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 227.77965088667668
+    },
+    {
+      "name": "PRINT carrier 10 double:1",
+      "component": "PRINT carrier 10 double",
+      "file": "meshes/part-012.stl",
+      "transform_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 6476.230484214975
+    },
+    {
+      "name": "METAL M2 nut 100:1",
+      "component": "METAL M2 nut 100",
+      "file": "meshes/part-013.stl",
+      "transform_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 16.628483359067182
+    },
+    {
+      "name": "REFERENCE panel M2x20 100:1",
+      "component": "REFERENCE panel M2x20 100",
+      "file": "meshes/part-014.stl",
+      "transform_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 65.36802513602484
+    },
+    {
+      "name": "METAL M2 nut 101:1",
+      "component": "METAL M2 nut 101",
+      "file": "meshes/part-015.stl",
+      "transform_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 16.628483359067182
+    },
+    {
+      "name": "REFERENCE panel M2x20 101:1",
+      "component": "REFERENCE panel M2x20 101",
+      "file": "meshes/part-016.stl",
+      "transform_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 65.36802513602484
+    },
+    {
+      "name": "REFERENCE carrier M5x12 10:1",
+      "component": "REFERENCE carrier M5x12 10",
+      "file": "meshes/part-017.stl",
+      "transform_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 277.9342795466826
+    },
+    {
+      "name": "METAL channel nut 10:1",
+      "component": "METAL channel nut 10",
+      "file": "meshes/part-018.stl",
+      "transform_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 227.77965088667577
+    },
+    {
+      "name": "PRINT carrier 01 single:1",
+      "component": "PRINT carrier 01 single",
+      "file": "meshes/part-019.stl",
+      "transform_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 4228.933171246844
+    },
+    {
+      "name": "METAL M2 nut 010:1",
+      "component": "METAL M2 nut 010",
+      "file": "meshes/part-020.stl",
+      "transform_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 16.628483359067427
+    },
+    {
+      "name": "REFERENCE panel M2x20 010:1",
+      "component": "REFERENCE panel M2x20 010",
+      "file": "meshes/part-021.stl",
+      "transform_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 65.36802513602312
+    },
+    {
+      "name": "REFERENCE carrier M5x12 01:1",
+      "component": "REFERENCE carrier M5x12 01",
+      "file": "meshes/part-022.stl",
+      "transform_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 277.9342795466817
+    },
+    {
+      "name": "METAL channel nut 01:1",
+      "component": "METAL channel nut 01",
+      "file": "meshes/part-023.stl",
+      "transform_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 227.77965088667645
+    },
+    {
+      "name": "PRINT carrier 02 single:1",
+      "component": "PRINT carrier 02 single",
+      "file": "meshes/part-024.stl",
+      "transform_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 4228.933171246844
+    },
+    {
+      "name": "METAL M2 nut 020:1",
+      "component": "METAL M2 nut 020",
+      "file": "meshes/part-025.stl",
+      "transform_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 16.628483359067427
+    },
+    {
+      "name": "REFERENCE panel M2x20 020:1",
+      "component": "REFERENCE panel M2x20 020",
+      "file": "meshes/part-026.stl",
+      "transform_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 65.36802513602312
+    },
+    {
+      "name": "REFERENCE carrier M5x12 02:1",
+      "component": "REFERENCE carrier M5x12 02",
+      "file": "meshes/part-027.stl",
+      "transform_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 277.9342795466817
+    },
+    {
+      "name": "METAL channel nut 02:1",
+      "component": "METAL channel nut 02",
+      "file": "meshes/part-028.stl",
+      "transform_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 227.77965088667645
+    },
+    {
+      "name": "PRINT carrier 00 single:2",
+      "component": "PRINT carrier 00 single",
+      "file": "meshes/part-007.stl",
+      "transform_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          440.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 4228.933171246841
+    },
+    {
+      "name": "METAL M2 nut 000:2",
+      "component": "METAL M2 nut 000",
+      "file": "meshes/part-008.stl",
+      "transform_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          440.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 16.62848335906735
+    },
+    {
+      "name": "REFERENCE panel M2x20 000:2",
+      "component": "REFERENCE panel M2x20 000",
+      "file": "meshes/part-009.stl",
+      "transform_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          440.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 65.36802513602318
+    },
+    {
+      "name": "REFERENCE carrier M5x12 00:2",
+      "component": "REFERENCE carrier M5x12 00",
+      "file": "meshes/part-010.stl",
+      "transform_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          440.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 277.93427954668175
+    },
+    {
+      "name": "METAL channel nut 00:2",
+      "component": "METAL channel nut 00",
+      "file": "meshes/part-011.stl",
+      "transform_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          440.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 227.77965088667668
+    },
+    {
+      "name": "PRINT carrier 00 single:3",
+      "component": "PRINT carrier 00 single",
+      "file": "meshes/part-007.stl",
+      "transform_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          460.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 4228.933171246841
+    },
+    {
+      "name": "METAL M2 nut 000:3",
+      "component": "METAL M2 nut 000",
+      "file": "meshes/part-008.stl",
+      "transform_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          460.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 16.62848335906735
+    },
+    {
+      "name": "REFERENCE panel M2x20 000:3",
+      "component": "REFERENCE panel M2x20 000",
+      "file": "meshes/part-009.stl",
+      "transform_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          460.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 65.36802513602318
+    },
+    {
+      "name": "REFERENCE carrier M5x12 00:3",
+      "component": "REFERENCE carrier M5x12 00",
+      "file": "meshes/part-010.stl",
+      "transform_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          460.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 277.93427954668175
+    },
+    {
+      "name": "METAL channel nut 00:3",
+      "component": "METAL channel nut 00",
+      "file": "meshes/part-011.stl",
+      "transform_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          460.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 227.77965088667668
+    },
+    {
+      "name": "PRINT carrier 01 single:2",
+      "component": "PRINT carrier 01 single",
+      "file": "meshes/part-019.stl",
+      "transform_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          460.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 4228.933171246844
+    },
+    {
+      "name": "METAL M2 nut 010:2",
+      "component": "METAL M2 nut 010",
+      "file": "meshes/part-020.stl",
+      "transform_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          460.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 16.628483359067427
+    },
+    {
+      "name": "REFERENCE panel M2x20 010:2",
+      "component": "REFERENCE panel M2x20 010",
+      "file": "meshes/part-021.stl",
+      "transform_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          460.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 65.36802513602312
+    },
+    {
+      "name": "REFERENCE carrier M5x12 01:2",
+      "component": "REFERENCE carrier M5x12 01",
+      "file": "meshes/part-022.stl",
+      "transform_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          460.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 277.9342795466817
+    },
+    {
+      "name": "METAL channel nut 01:2",
+      "component": "METAL channel nut 01",
+      "file": "meshes/part-023.stl",
+      "transform_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          460.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 227.77965088667645
+    },
+    {
+      "name": "PRINT carrier 02 single:2",
+      "component": "PRINT carrier 02 single",
+      "file": "meshes/part-024.stl",
+      "transform_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          460.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 4228.933171246844
+    },
+    {
+      "name": "METAL M2 nut 020:2",
+      "component": "METAL M2 nut 020",
+      "file": "meshes/part-025.stl",
+      "transform_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          460.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 16.628483359067427
+    },
+    {
+      "name": "REFERENCE panel M2x20 020:2",
+      "component": "REFERENCE panel M2x20 020",
+      "file": "meshes/part-026.stl",
+      "transform_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          460.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 65.36802513602312
+    },
+    {
+      "name": "REFERENCE carrier M5x12 02:2",
+      "component": "REFERENCE carrier M5x12 02",
+      "file": "meshes/part-027.stl",
+      "transform_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          460.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 277.9342795466817
+    },
+    {
+      "name": "METAL channel nut 02:2",
+      "component": "METAL channel nut 02",
+      "file": "meshes/part-028.stl",
+      "transform_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          460.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 227.77965088667645
+    },
+    {
+      "name": "PRINT carrier 00 single:4",
+      "component": "PRINT carrier 00 single",
+      "file": "meshes/part-007.stl",
+      "transform_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          460.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          440.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 4228.933171246841
+    },
+    {
+      "name": "METAL M2 nut 000:4",
+      "component": "METAL M2 nut 000",
+      "file": "meshes/part-008.stl",
+      "transform_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          460.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          440.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 16.62848335906735
+    },
+    {
+      "name": "REFERENCE panel M2x20 000:4",
+      "component": "REFERENCE panel M2x20 000",
+      "file": "meshes/part-009.stl",
+      "transform_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          460.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          440.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 65.36802513602318
+    },
+    {
+      "name": "REFERENCE carrier M5x12 00:4",
+      "component": "REFERENCE carrier M5x12 00",
+      "file": "meshes/part-010.stl",
+      "transform_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          460.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          440.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 277.93427954668175
+    },
+    {
+      "name": "METAL channel nut 00:4",
+      "component": "METAL channel nut 00",
+      "file": "meshes/part-011.stl",
+      "transform_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          460.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          440.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 227.77965088667668
+    },
+    {
+      "name": "PRINT carrier 10 double:2",
+      "component": "PRINT carrier 10 double",
+      "file": "meshes/part-012.stl",
+      "transform_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          200.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 6476.230484214975
+    },
+    {
+      "name": "METAL M2 nut 100:2",
+      "component": "METAL M2 nut 100",
+      "file": "meshes/part-013.stl",
+      "transform_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          200.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 16.628483359067182
+    },
+    {
+      "name": "REFERENCE panel M2x20 100:2",
+      "component": "REFERENCE panel M2x20 100",
+      "file": "meshes/part-014.stl",
+      "transform_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          200.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 65.36802513602484
+    },
+    {
+      "name": "METAL M2 nut 101:2",
+      "component": "METAL M2 nut 101",
+      "file": "meshes/part-015.stl",
+      "transform_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          200.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 16.628483359067182
+    },
+    {
+      "name": "REFERENCE panel M2x20 101:2",
+      "component": "REFERENCE panel M2x20 101",
+      "file": "meshes/part-016.stl",
+      "transform_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          200.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 65.36802513602484
+    },
+    {
+      "name": "REFERENCE carrier M5x12 10:2",
+      "component": "REFERENCE carrier M5x12 10",
+      "file": "meshes/part-017.stl",
+      "transform_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          200.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 277.9342795466826
+    },
+    {
+      "name": "METAL channel nut 10:2",
+      "component": "METAL channel nut 10",
+      "file": "meshes/part-018.stl",
+      "transform_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          200.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 227.77965088667577
+    },
+    {
+      "name": "PRINT carrier 10 double:3",
+      "component": "PRINT carrier 10 double",
+      "file": "meshes/part-012.stl",
+      "transform_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          240.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 6476.230484214975
+    },
+    {
+      "name": "METAL M2 nut 100:3",
+      "component": "METAL M2 nut 100",
+      "file": "meshes/part-013.stl",
+      "transform_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          240.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 16.628483359067182
+    },
+    {
+      "name": "REFERENCE panel M2x20 100:3",
+      "component": "REFERENCE panel M2x20 100",
+      "file": "meshes/part-014.stl",
+      "transform_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          240.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 65.36802513602484
+    },
+    {
+      "name": "METAL M2 nut 101:3",
+      "component": "METAL M2 nut 101",
+      "file": "meshes/part-015.stl",
+      "transform_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          240.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 16.628483359067182
+    },
+    {
+      "name": "REFERENCE panel M2x20 101:3",
+      "component": "REFERENCE panel M2x20 101",
+      "file": "meshes/part-016.stl",
+      "transform_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          240.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 65.36802513602484
+    },
+    {
+      "name": "REFERENCE carrier M5x12 10:3",
+      "component": "REFERENCE carrier M5x12 10",
+      "file": "meshes/part-017.stl",
+      "transform_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          240.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 277.9342795466826
+    },
+    {
+      "name": "METAL channel nut 10:3",
+      "component": "METAL channel nut 10",
+      "file": "meshes/part-018.stl",
+      "transform_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          240.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 227.77965088667577
+    },
+    {
+      "name": "PRINT carrier 10 double:4",
+      "component": "PRINT carrier 10 double",
+      "file": "meshes/part-012.stl",
+      "transform_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          440.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 6476.230484214975
+    },
+    {
+      "name": "METAL M2 nut 100:4",
+      "component": "METAL M2 nut 100",
+      "file": "meshes/part-013.stl",
+      "transform_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          440.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 16.628483359067182
+    },
+    {
+      "name": "REFERENCE panel M2x20 100:4",
+      "component": "REFERENCE panel M2x20 100",
+      "file": "meshes/part-014.stl",
+      "transform_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          440.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 65.36802513602484
+    },
+    {
+      "name": "METAL M2 nut 101:4",
+      "component": "METAL M2 nut 101",
+      "file": "meshes/part-015.stl",
+      "transform_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          440.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 16.628483359067182
+    },
+    {
+      "name": "REFERENCE panel M2x20 101:4",
+      "component": "REFERENCE panel M2x20 101",
+      "file": "meshes/part-016.stl",
+      "transform_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          440.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 65.36802513602484
+    },
+    {
+      "name": "REFERENCE carrier M5x12 10:4",
+      "component": "REFERENCE carrier M5x12 10",
+      "file": "meshes/part-017.stl",
+      "transform_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          440.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 277.9342795466826
+    },
+    {
+      "name": "METAL channel nut 10:4",
+      "component": "METAL channel nut 10",
+      "file": "meshes/part-018.stl",
+      "transform_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          440.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 227.77965088667577
+    },
+    {
+      "name": "METAL in-bay corner 00L:1",
+      "component": "METAL in-bay corner 00L",
+      "file": "meshes/part-029.stl",
+      "transform_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 1441.450233343362
+    },
+    {
+      "name": "REFERENCE side M5x8 00L X:1",
+      "component": "REFERENCE side M5x8 00L X",
+      "file": "meshes/part-030.stl",
+      "transform_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 369.7261854193328
+    },
+    {
+      "name": "REFERENCE thin METAL channel nut side 00L X:1",
+      "component": "REFERENCE thin METAL channel nut side 00L X",
+      "file": "meshes/part-031.stl",
+      "transform_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 227.77965088668182
+    },
+    {
+      "name": "REFERENCE side M5x8 00L Y:1",
+      "component": "REFERENCE side M5x8 00L Y",
+      "file": "meshes/part-032.stl",
+      "transform_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 369.7261854193645
+    },
+    {
+      "name": "REFERENCE thin METAL channel nut side 00L Y:1",
+      "component": "REFERENCE thin METAL channel nut side 00L Y",
+      "file": "meshes/part-033.stl",
+      "transform_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 227.77965088667685
+    },
+    {
+      "name": "METAL in-bay corner 00R:1",
+      "component": "METAL in-bay corner 00R",
+      "file": "meshes/part-034.stl",
+      "transform_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 1441.4502333433647
+    },
+    {
+      "name": "REFERENCE side M5x8 00R X:1",
+      "component": "REFERENCE side M5x8 00R X",
+      "file": "meshes/part-035.stl",
+      "transform_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 369.72618541933366
+    },
+    {
+      "name": "REFERENCE thin METAL channel nut side 00R X:1",
+      "component": "REFERENCE thin METAL channel nut side 00R X",
+      "file": "meshes/part-036.stl",
+      "transform_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 227.7796508866814
+    },
+    {
+      "name": "REFERENCE side M5x8 00R Y:1",
+      "component": "REFERENCE side M5x8 00R Y",
+      "file": "meshes/part-037.stl",
+      "transform_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 369.72618541936583
+    },
+    {
+      "name": "REFERENCE thin METAL channel nut side 00R Y:1",
+      "component": "REFERENCE thin METAL channel nut side 00R Y",
+      "file": "meshes/part-038.stl",
+      "transform_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 227.77965088667605
+    },
+    {
+      "name": "METAL in-bay corner 00L:2",
+      "component": "METAL in-bay corner 00L",
+      "file": "meshes/part-029.stl",
+      "transform_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          230.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 1441.450233343362
+    },
+    {
+      "name": "REFERENCE side M5x8 00L X:2",
+      "component": "REFERENCE side M5x8 00L X",
+      "file": "meshes/part-030.stl",
+      "transform_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          230.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 369.7261854193328
+    },
+    {
+      "name": "REFERENCE thin METAL channel nut side 00L X:2",
+      "component": "REFERENCE thin METAL channel nut side 00L X",
+      "file": "meshes/part-031.stl",
+      "transform_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          230.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 227.77965088668182
+    },
+    {
+      "name": "REFERENCE side M5x8 00L Y:2",
+      "component": "REFERENCE side M5x8 00L Y",
+      "file": "meshes/part-032.stl",
+      "transform_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          230.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 369.7261854193645
+    },
+    {
+      "name": "REFERENCE thin METAL channel nut side 00L Y:2",
+      "component": "REFERENCE thin METAL channel nut side 00L Y",
+      "file": "meshes/part-033.stl",
+      "transform_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          230.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 227.77965088667685
+    },
+    {
+      "name": "METAL in-bay corner 00R:2",
+      "component": "METAL in-bay corner 00R",
+      "file": "meshes/part-034.stl",
+      "transform_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          230.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 1441.4502333433647
+    },
+    {
+      "name": "REFERENCE side M5x8 00R X:2",
+      "component": "REFERENCE side M5x8 00R X",
+      "file": "meshes/part-035.stl",
+      "transform_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          230.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 369.72618541933366
+    },
+    {
+      "name": "REFERENCE thin METAL channel nut side 00R X:2",
+      "component": "REFERENCE thin METAL channel nut side 00R X",
+      "file": "meshes/part-036.stl",
+      "transform_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          230.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 227.7796508866814
+    },
+    {
+      "name": "REFERENCE side M5x8 00R Y:2",
+      "component": "REFERENCE side M5x8 00R Y",
+      "file": "meshes/part-037.stl",
+      "transform_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          230.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 369.72618541936583
+    },
+    {
+      "name": "REFERENCE thin METAL channel nut side 00R Y:2",
+      "component": "REFERENCE thin METAL channel nut side 00R Y",
+      "file": "meshes/part-038.stl",
+      "transform_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          230.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 227.77965088667605
+    },
+    {
+      "name": "METAL in-bay corner 00L:3",
+      "component": "METAL in-bay corner 00L",
+      "file": "meshes/part-029.stl",
+      "transform_mm": [
+        [
+          -1.0,
+          -1.2246467991473532e-16,
+          0.0,
+          480.0
+        ],
+        [
+          1.2246467991473532e-16,
+          -1.0,
+          0.0,
+          480.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 1441.450233343362
+    },
+    {
+      "name": "REFERENCE side M5x8 00L X:3",
+      "component": "REFERENCE side M5x8 00L X",
+      "file": "meshes/part-030.stl",
+      "transform_mm": [
+        [
+          -1.0,
+          -1.2246467991473532e-16,
+          0.0,
+          480.0
+        ],
+        [
+          1.2246467991473532e-16,
+          -1.0,
+          0.0,
+          480.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 369.7261854193328
+    },
+    {
+      "name": "REFERENCE thin METAL channel nut side 00L X:3",
+      "component": "REFERENCE thin METAL channel nut side 00L X",
+      "file": "meshes/part-031.stl",
+      "transform_mm": [
+        [
+          -1.0,
+          -1.2246467991473532e-16,
+          0.0,
+          480.0
+        ],
+        [
+          1.2246467991473532e-16,
+          -1.0,
+          0.0,
+          480.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 227.77965088668182
+    },
+    {
+      "name": "REFERENCE side M5x8 00L Y:3",
+      "component": "REFERENCE side M5x8 00L Y",
+      "file": "meshes/part-032.stl",
+      "transform_mm": [
+        [
+          -1.0,
+          -1.2246467991473532e-16,
+          0.0,
+          480.0
+        ],
+        [
+          1.2246467991473532e-16,
+          -1.0,
+          0.0,
+          480.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 369.7261854193645
+    },
+    {
+      "name": "REFERENCE thin METAL channel nut side 00L Y:3",
+      "component": "REFERENCE thin METAL channel nut side 00L Y",
+      "file": "meshes/part-033.stl",
+      "transform_mm": [
+        [
+          -1.0,
+          -1.2246467991473532e-16,
+          0.0,
+          480.0
+        ],
+        [
+          1.2246467991473532e-16,
+          -1.0,
+          0.0,
+          480.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 227.77965088667685
+    },
+    {
+      "name": "METAL in-bay corner 00R:3",
+      "component": "METAL in-bay corner 00R",
+      "file": "meshes/part-034.stl",
+      "transform_mm": [
+        [
+          -1.0,
+          -1.2246467991473532e-16,
+          0.0,
+          480.0
+        ],
+        [
+          1.2246467991473532e-16,
+          -1.0,
+          0.0,
+          480.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 1441.4502333433647
+    },
+    {
+      "name": "REFERENCE side M5x8 00R X:3",
+      "component": "REFERENCE side M5x8 00R X",
+      "file": "meshes/part-035.stl",
+      "transform_mm": [
+        [
+          -1.0,
+          -1.2246467991473532e-16,
+          0.0,
+          480.0
+        ],
+        [
+          1.2246467991473532e-16,
+          -1.0,
+          0.0,
+          480.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 369.72618541933366
+    },
+    {
+      "name": "REFERENCE thin METAL channel nut side 00R X:3",
+      "component": "REFERENCE thin METAL channel nut side 00R X",
+      "file": "meshes/part-036.stl",
+      "transform_mm": [
+        [
+          -1.0,
+          -1.2246467991473532e-16,
+          0.0,
+          480.0
+        ],
+        [
+          1.2246467991473532e-16,
+          -1.0,
+          0.0,
+          480.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 227.7796508866814
+    },
+    {
+      "name": "REFERENCE side M5x8 00R Y:3",
+      "component": "REFERENCE side M5x8 00R Y",
+      "file": "meshes/part-037.stl",
+      "transform_mm": [
+        [
+          -1.0,
+          -1.2246467991473532e-16,
+          0.0,
+          480.0
+        ],
+        [
+          1.2246467991473532e-16,
+          -1.0,
+          0.0,
+          480.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 369.72618541936583
+    },
+    {
+      "name": "REFERENCE thin METAL channel nut side 00R Y:3",
+      "component": "REFERENCE thin METAL channel nut side 00R Y",
+      "file": "meshes/part-038.stl",
+      "transform_mm": [
+        [
+          -1.0,
+          -1.2246467991473532e-16,
+          0.0,
+          480.0
+        ],
+        [
+          1.2246467991473532e-16,
+          -1.0,
+          0.0,
+          480.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 227.77965088667605
+    },
+    {
+      "name": "METAL in-bay corner 00L:4",
+      "component": "METAL in-bay corner 00L",
+      "file": "meshes/part-029.stl",
+      "transform_mm": [
+        [
+          -1.0,
+          -1.2246467991473532e-16,
+          0.0,
+          250.0
+        ],
+        [
+          1.2246467991473532e-16,
+          -1.0,
+          0.0,
+          480.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 1441.450233343362
+    },
+    {
+      "name": "REFERENCE side M5x8 00L X:4",
+      "component": "REFERENCE side M5x8 00L X",
+      "file": "meshes/part-030.stl",
+      "transform_mm": [
+        [
+          -1.0,
+          -1.2246467991473532e-16,
+          0.0,
+          250.0
+        ],
+        [
+          1.2246467991473532e-16,
+          -1.0,
+          0.0,
+          480.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 369.7261854193328
+    },
+    {
+      "name": "REFERENCE thin METAL channel nut side 00L X:4",
+      "component": "REFERENCE thin METAL channel nut side 00L X",
+      "file": "meshes/part-031.stl",
+      "transform_mm": [
+        [
+          -1.0,
+          -1.2246467991473532e-16,
+          0.0,
+          250.0
+        ],
+        [
+          1.2246467991473532e-16,
+          -1.0,
+          0.0,
+          480.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 227.77965088668182
+    },
+    {
+      "name": "REFERENCE side M5x8 00L Y:4",
+      "component": "REFERENCE side M5x8 00L Y",
+      "file": "meshes/part-032.stl",
+      "transform_mm": [
+        [
+          -1.0,
+          -1.2246467991473532e-16,
+          0.0,
+          250.0
+        ],
+        [
+          1.2246467991473532e-16,
+          -1.0,
+          0.0,
+          480.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 369.7261854193645
+    },
+    {
+      "name": "REFERENCE thin METAL channel nut side 00L Y:4",
+      "component": "REFERENCE thin METAL channel nut side 00L Y",
+      "file": "meshes/part-033.stl",
+      "transform_mm": [
+        [
+          -1.0,
+          -1.2246467991473532e-16,
+          0.0,
+          250.0
+        ],
+        [
+          1.2246467991473532e-16,
+          -1.0,
+          0.0,
+          480.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 227.77965088667685
+    },
+    {
+      "name": "METAL in-bay corner 00R:4",
+      "component": "METAL in-bay corner 00R",
+      "file": "meshes/part-034.stl",
+      "transform_mm": [
+        [
+          -1.0,
+          -1.2246467991473532e-16,
+          0.0,
+          250.0
+        ],
+        [
+          1.2246467991473532e-16,
+          -1.0,
+          0.0,
+          480.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 1441.4502333433647
+    },
+    {
+      "name": "REFERENCE side M5x8 00R X:4",
+      "component": "REFERENCE side M5x8 00R X",
+      "file": "meshes/part-035.stl",
+      "transform_mm": [
+        [
+          -1.0,
+          -1.2246467991473532e-16,
+          0.0,
+          250.0
+        ],
+        [
+          1.2246467991473532e-16,
+          -1.0,
+          0.0,
+          480.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 369.72618541933366
+    },
+    {
+      "name": "REFERENCE thin METAL channel nut side 00R X:4",
+      "component": "REFERENCE thin METAL channel nut side 00R X",
+      "file": "meshes/part-036.stl",
+      "transform_mm": [
+        [
+          -1.0,
+          -1.2246467991473532e-16,
+          0.0,
+          250.0
+        ],
+        [
+          1.2246467991473532e-16,
+          -1.0,
+          0.0,
+          480.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 227.7796508866814
+    },
+    {
+      "name": "REFERENCE side M5x8 00R Y:4",
+      "component": "REFERENCE side M5x8 00R Y",
+      "file": "meshes/part-037.stl",
+      "transform_mm": [
+        [
+          -1.0,
+          -1.2246467991473532e-16,
+          0.0,
+          250.0
+        ],
+        [
+          1.2246467991473532e-16,
+          -1.0,
+          0.0,
+          480.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 369.72618541936583
+    },
+    {
+      "name": "REFERENCE thin METAL channel nut side 00R Y:4",
+      "component": "REFERENCE thin METAL channel nut side 00R Y",
+      "file": "meshes/part-038.stl",
+      "transform_mm": [
+        [
+          -1.0,
+          -1.2246467991473532e-16,
+          0.0,
+          250.0
+        ],
+        [
+          1.2246467991473532e-16,
+          -1.0,
+          0.0,
+          480.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 227.77965088667605
+    },
+    {
+      "name": "METAL flush wall tab 00:1",
+      "component": "METAL flush wall tab 00",
+      "file": "meshes/part-039.stl",
+      "transform_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 2565.9010161327283
+    },
+    {
+      "name": "REFERENCE side M5x8 wall 000:1",
+      "component": "REFERENCE side M5x8 wall 000",
+      "file": "meshes/part-040.stl",
+      "transform_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 369.726185419333
+    },
+    {
+      "name": "REFERENCE thin METAL channel nut side wall 000:1",
+      "component": "REFERENCE thin METAL channel nut side wall 000",
+      "file": "meshes/part-041.stl",
+      "transform_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 227.77965088668162
+    },
+    {
+      "name": "REFERENCE side M5x8 wall 001:1",
+      "component": "REFERENCE side M5x8 wall 001",
+      "file": "meshes/part-042.stl",
+      "transform_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 369.7261854193329
+    },
+    {
+      "name": "REFERENCE thin METAL channel nut side wall 001:1",
+      "component": "REFERENCE thin METAL channel nut side wall 001",
+      "file": "meshes/part-043.stl",
+      "transform_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 227.7796508866818
+    },
+    {
+      "name": "REFERENCE wall anchor HEAD ONLY 00:1",
+      "component": "REFERENCE wall anchor HEAD ONLY 00",
+      "file": "meshes/part-044.stl",
+      "transform_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 424.11500823464
+    },
+    {
+      "name": "METAL flush wall tab 00:2",
+      "component": "METAL flush wall tab 00",
+      "file": "meshes/part-039.stl",
+      "transform_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          160.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 2565.9010161327283
+    },
+    {
+      "name": "REFERENCE side M5x8 wall 000:2",
+      "component": "REFERENCE side M5x8 wall 000",
+      "file": "meshes/part-040.stl",
+      "transform_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          160.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 369.726185419333
+    },
+    {
+      "name": "REFERENCE thin METAL channel nut side wall 000:2",
+      "component": "REFERENCE thin METAL channel nut side wall 000",
+      "file": "meshes/part-041.stl",
+      "transform_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          160.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 227.77965088668162
+    },
+    {
+      "name": "REFERENCE side M5x8 wall 001:2",
+      "component": "REFERENCE side M5x8 wall 001",
+      "file": "meshes/part-042.stl",
+      "transform_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          160.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 369.7261854193329
+    },
+    {
+      "name": "REFERENCE thin METAL channel nut side wall 001:2",
+      "component": "REFERENCE thin METAL channel nut side wall 001",
+      "file": "meshes/part-043.stl",
+      "transform_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          160.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 227.7796508866818
+    },
+    {
+      "name": "REFERENCE wall anchor HEAD ONLY 00:2",
+      "component": "REFERENCE wall anchor HEAD ONLY 00",
+      "file": "meshes/part-044.stl",
+      "transform_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          160.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 424.11500823464
+    },
+    {
+      "name": "METAL flush wall tab 00:3",
+      "component": "METAL flush wall tab 00",
+      "file": "meshes/part-039.stl",
+      "transform_mm": [
+        [
+          -1.0,
+          -1.2246467991473532e-16,
+          0.0,
+          480.0
+        ],
+        [
+          1.2246467991473532e-16,
+          -1.0,
+          0.0,
+          480.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 2565.9010161327283
+    },
+    {
+      "name": "REFERENCE side M5x8 wall 000:3",
+      "component": "REFERENCE side M5x8 wall 000",
+      "file": "meshes/part-040.stl",
+      "transform_mm": [
+        [
+          -1.0,
+          -1.2246467991473532e-16,
+          0.0,
+          480.0
+        ],
+        [
+          1.2246467991473532e-16,
+          -1.0,
+          0.0,
+          480.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 369.726185419333
+    },
+    {
+      "name": "REFERENCE thin METAL channel nut side wall 000:3",
+      "component": "REFERENCE thin METAL channel nut side wall 000",
+      "file": "meshes/part-041.stl",
+      "transform_mm": [
+        [
+          -1.0,
+          -1.2246467991473532e-16,
+          0.0,
+          480.0
+        ],
+        [
+          1.2246467991473532e-16,
+          -1.0,
+          0.0,
+          480.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 227.77965088668162
+    },
+    {
+      "name": "REFERENCE side M5x8 wall 001:3",
+      "component": "REFERENCE side M5x8 wall 001",
+      "file": "meshes/part-042.stl",
+      "transform_mm": [
+        [
+          -1.0,
+          -1.2246467991473532e-16,
+          0.0,
+          480.0
+        ],
+        [
+          1.2246467991473532e-16,
+          -1.0,
+          0.0,
+          480.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 369.7261854193329
+    },
+    {
+      "name": "REFERENCE thin METAL channel nut side wall 001:3",
+      "component": "REFERENCE thin METAL channel nut side wall 001",
+      "file": "meshes/part-043.stl",
+      "transform_mm": [
+        [
+          -1.0,
+          -1.2246467991473532e-16,
+          0.0,
+          480.0
+        ],
+        [
+          1.2246467991473532e-16,
+          -1.0,
+          0.0,
+          480.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 227.7796508866818
+    },
+    {
+      "name": "REFERENCE wall anchor HEAD ONLY 00:3",
+      "component": "REFERENCE wall anchor HEAD ONLY 00",
+      "file": "meshes/part-044.stl",
+      "transform_mm": [
+        [
+          -1.0,
+          -1.2246467991473532e-16,
+          0.0,
+          480.0
+        ],
+        [
+          1.2246467991473532e-16,
+          -1.0,
+          0.0,
+          480.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 424.11500823464
+    },
+    {
+      "name": "METAL flush wall tab 00:4",
+      "component": "METAL flush wall tab 00",
+      "file": "meshes/part-039.stl",
+      "transform_mm": [
+        [
+          -1.0,
+          -1.2246467991473532e-16,
+          0.0,
+          480.0
+        ],
+        [
+          1.2246467991473532e-16,
+          -1.0,
+          0.0,
+          320.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 2565.9010161327283
+    },
+    {
+      "name": "REFERENCE side M5x8 wall 000:4",
+      "component": "REFERENCE side M5x8 wall 000",
+      "file": "meshes/part-040.stl",
+      "transform_mm": [
+        [
+          -1.0,
+          -1.2246467991473532e-16,
+          0.0,
+          480.0
+        ],
+        [
+          1.2246467991473532e-16,
+          -1.0,
+          0.0,
+          320.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 369.726185419333
+    },
+    {
+      "name": "REFERENCE thin METAL channel nut side wall 000:4",
+      "component": "REFERENCE thin METAL channel nut side wall 000",
+      "file": "meshes/part-041.stl",
+      "transform_mm": [
+        [
+          -1.0,
+          -1.2246467991473532e-16,
+          0.0,
+          480.0
+        ],
+        [
+          1.2246467991473532e-16,
+          -1.0,
+          0.0,
+          320.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 227.77965088668162
+    },
+    {
+      "name": "REFERENCE side M5x8 wall 001:4",
+      "component": "REFERENCE side M5x8 wall 001",
+      "file": "meshes/part-042.stl",
+      "transform_mm": [
+        [
+          -1.0,
+          -1.2246467991473532e-16,
+          0.0,
+          480.0
+        ],
+        [
+          1.2246467991473532e-16,
+          -1.0,
+          0.0,
+          320.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 369.7261854193329
+    },
+    {
+      "name": "REFERENCE thin METAL channel nut side wall 001:4",
+      "component": "REFERENCE thin METAL channel nut side wall 001",
+      "file": "meshes/part-043.stl",
+      "transform_mm": [
+        [
+          -1.0,
+          -1.2246467991473532e-16,
+          0.0,
+          480.0
+        ],
+        [
+          1.2246467991473532e-16,
+          -1.0,
+          0.0,
+          320.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 227.7796508866818
+    },
+    {
+      "name": "REFERENCE wall anchor HEAD ONLY 00:4",
+      "component": "REFERENCE wall anchor HEAD ONLY 00",
+      "file": "meshes/part-044.stl",
+      "transform_mm": [
+        [
+          -1.0,
+          -1.2246467991473532e-16,
+          0.0,
+          480.0
+        ],
+        [
+          1.2246467991473532e-16,
+          -1.0,
+          0.0,
+          320.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 424.11500823464
+    },
+    {
+      "name": "Panel lower left:1",
+      "component": "Panel lower left",
+      "file": "meshes/part-045.stl",
+      "transform_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 192055.04098925678
+    },
+    {
+      "name": "Panel lower right:1",
+      "component": "Panel lower right",
+      "file": "meshes/part-046.stl",
+      "transform_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 192055.04098925687
+    },
+    {
+      "name": "Panel upper left:1",
+      "component": "Panel upper left",
+      "file": "meshes/part-047.stl",
+      "transform_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 184284.47757963752
+    },
+    {
+      "name": "Panel upper right:1",
+      "component": "Panel upper right",
+      "file": "meshes/part-048.stl",
+      "transform_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "volume_mm3": 184284.47757963726
+    }
+  ]
+}

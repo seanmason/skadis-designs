@@ -1,0 +1,52 @@
+{
+  "wide_shots": [
+    {
+      "shot": "reveal",
+      "sampled_corner_projections": 14872,
+      "minimum_screen_margin": 0.0507388710975647
+    },
+    {
+      "shot": "explode",
+      "sampled_corner_projections": 18304,
+      "minimum_screen_margin": 0.08483640104532242
+    },
+    {
+      "shot": "frame",
+      "sampled_corner_projections": 7680,
+      "minimum_screen_margin": 0.0657075047492981
+    },
+    {
+      "shot": "panels",
+      "sampled_corner_projections": 26712,
+      "minimum_screen_margin": 0.0936545729637146
+    },
+    {
+      "shot": "art",
+      "sampled_corner_projections": 11440,
+      "minimum_screen_margin": 0.06643569469451904
+    },
+    {
+      "shot": "finish",
+      "sampled_corner_projections": 11440,
+      "minimum_screen_margin": 0.05283403396606445
+    }
+  ],
+  "service_panel": [
+    {
+      "frame": 1273,
+      "bottom_screen_fraction": 0.3383285701274872
+    },
+    {
+      "frame": 1303,
+      "bottom_screen_fraction": 0.3383285701274872
+    },
+    {
+      "frame": 1336,
+      "bottom_screen_fraction": 0.2692231237888336
+    },
+    {
+      "frame": 1368,
+      "bottom_screen_fraction": 0.24835528433322906
+    }
+  ]
+}
