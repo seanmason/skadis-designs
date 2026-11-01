@@ -26,3 +26,27 @@ The [20-pack M5 Phillips flat-head](https://www.menards.com/main/hardware/fasten
 - The optional existing handling tool uses two M2 x 6 flat-head screws; a matching Menards item was not verified.
 
 The M3 items are useful **sample hardware** for a revised mounting station. A complete panel/carrier/jig revision and load qualification remain pending the mounting-layout choice, filament and load target described in [the mounting study](mounting-revision-study.md).
+
+## Online alternatives checked 2026-10-31
+
+Amazon guest product pages were checked with **Morton Grove 60053** selected, around 9:50 PM Central. ZIP and Prime membership have been requested but not confirmed by the user. These are displayed delivery estimates, not reservations or checkout guarantees. Prices exclude tax. No purchases made.
+
+| Product | Pack / price | Delivery displayed | Use and qualification |
+|---|---|---|---|
+| [Fullerkreg M5-0.8 x 8 button-head, ISO 7380, stainless](https://www.amazon.com/dp/B07H18YDYB) | 100 / $8.89 | Prime Sunday Nov 1; nonmember Thursday Nov 5 with eligible $35 order | 24 required in current four-panel assembly. Listing specifies 8 mm under-head length, 3 mm hex drive, fully threaded, A2 stainless. Best straightforward fast-delivery candidate. Final engagement depends on selected channel nut and actual bracket thickness. |
+| [QWUEE M5-0.8 x 12 Phillips flat-head, stainless](https://www.amazon.com/dp/B0D8PPQPBX) | 30 / $6.89 | Prime Monday Nov 2; nonmember Thursday Nov 5 with eligible $35 order | 12 current carrier screws. Thread, length and head style match nominally; head diameter and countersink angle are not specified. Verify against 9.4 mm CAD seat before bulk use. Title incorrectly says UNC, but bullet explicitly specifies metric 5 mm diameter / 0.8 mm pitch / 12 mm including head. |
+| [QWUEE M2-0.4 x 20 Phillips flat-head, stainless](https://www.amazon.com/dp/B0D8PRMRRV) | 50 / $7.29 | Prime Monday Nov 2; nonmember Thursday Nov 5 with eligible $35 order | 16 current panel screws, only for M2 prototypes pending mounting revision. Confirm head fits 4.0 mm seat. Listing's UNC wording conflicts with explicit metric diameter/pitch; not a dimensionally certified supplier drawing. |
+| [ZQZ metric hex nut assortment, stainless](https://www.amazon.com/dp/B0B17LL6WZ) | 370 / $15.99 | Prime Sunday Nov 1; nonmember Thursday Nov 5 with eligible $35 order | Includes 70 M2 and 70 M3, enough for either 16-nut panel-mount option. Check across-flats and height against printed capture before use. Its ordinary M5 hex nuts are NOT substitutes for extrusion channel nuts. |
+| [QWUEE M3-0.5 x 20 Phillips flat-head, stainless](https://www.amazon.com/dp/B0D8PQTP94) | 50 / $7.29 | Thursday Nov 5 shown; no earlier Prime promise visible | Conditional candidate for proposed M3 solid-land revision, not current v0.5. Only one pack shown. Final head dimensions and carrier stack remain unqualified. |
+
+The M5 x 8 screws, M5 x 12 screws, M2 x 20 screws and nut assortment total **$39.06 before tax**, but this is a prototype sourcing basket, not a complete or released assembly BOM. Do not buy both panel-screw diameters assuming interchangeability.
+
+### Extrusion nuts: unresolved fit
+
+[Boeray 20-M5 slide-in nuts, 50 pack](https://www.amazon.com/dp/B01GCDG2QO) were $7.99, with Prime Sunday Nov 1 / nonmember Thursday Nov 5 delivery displayed. This is **not a qualified recommendation**. The bullet claims 10 mm length, 9 mm width, 4.5 mm height with a 6 x 1.5 mm step, while the description says 10 x 10 x 5 mm. It is end-loaded, not front-loaded. Neither conflicting envelope establishes clearance in the measured sloped channel, bearing under its lips, or adequate screw engagement without bottoming. The assembly needs 36 verified channel nuts. A physical sample and section comparison are needed before choosing this product or revising the nut envelope.
+
+### Fast alternative: McMaster-Carr
+
+McMaster's [delivery policy](https://www.mcmaster.com/info/delivery) says 98% of items ship from stock and most orders arrive same or next day. This is a general policy, not an item-specific delivery promise. Its [Chicago contact page](https://www.mcmaster.com/contact) lists will call at **600 N County Line Rd, Elmhurst IL 60126**, phone **630-600-3600**; Sunday hours **7 AM–2 PM**, Monday–Thursday **6 AM–10 PM**, Friday **6 AM–6 PM**, Saturday **7 AM–2 PM**. Confirm order readiness before travel. Exact McMaster SKUs, stock and shipment dates were not verified in this lookup.
+
+Wall anchors and final metal bracket specifications remain unresolved as above. None of these listings establishes an allowable load for the printed assembly.
