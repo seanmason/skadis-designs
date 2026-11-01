@@ -1,0 +1,26 @@
+{
+  "units": "mm",
+  "geometry_only": true,
+  "cases": [
+    {
+      "name": "original_M2",
+      "front_ligament": 0.1,
+      "bore_to_throat": 1.3
+    },
+    {
+      "name": "centered_M2",
+      "x_offset": 1.25,
+      "front_ligament": 1.35,
+      "bore_to_throat": 2.55,
+      "continuous_hook_corridor_shank_intrusion": 0.25
+    },
+    {
+      "name": "solid_land_M3",
+      "front_ligament": 5.180339887498949,
+      "bore_to_throat": 6.980339887498949,
+      "remaining_thickness_below_countersink": 3.6
+    }
+  ],
+  "load_rating": null,
+  "full_assembly_updated": false
+}
