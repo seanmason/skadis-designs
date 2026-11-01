@@ -18,8 +18,8 @@ def active():
  b=M['Builder'].__new__(M['Builder']);b.app=a;b.doc=doc;b.d=adsk.fusion.Design.cast(a.activeProduct);b.root=b.d.rootComponent
  return b
 
-def revise(_context):
- b=active();d=b.d
+def revise(_context,builder=None,record=True):
+ b=builder or active();d=b.d
  assert not d.userParameters.itemByName('webCenterOffset'),'Already migrated'
  d.userParameters.add('webCenterOffset',M['V']('(slotHeight-slotWidth)^2/(4*pitch)'),'mm','Equal-distance M2 station for standard staggered lattice; preserve support axis')
  edits={}
@@ -40,8 +40,9 @@ def revise(_context):
     if p.role=='AlongDistance' and p.createdBy.name.startswith('Integral nut retaining ramp'):shift(p)
  assert d.computeAll()
  h=b.health();assert h['healthy'],h
- out=os.path.join(ROOT,'models','v06');os.makedirs(out,exist_ok=True)
- with open(os.path.join(out,'migration.json'),'w') as f:json.dump({'source':'models/v05/frame-assembly-v05.f3d','original_expressions':edits,'health':h},f,indent=2)
+ if record:
+  out=os.path.join(ROOT,'models','v06');os.makedirs(out,exist_ok=True)
+  with open(os.path.join(out,'migration.json'),'w') as f:json.dump({'source':'models/v05/frame-assembly-v05.f3d','original_expressions':edits,'health':h},f,indent=2)
  print(h,len(edits),'parameters revised')
 
 def export(_context):

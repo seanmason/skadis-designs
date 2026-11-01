@@ -6,6 +6,8 @@ An original Autodesk Fusion parametric pegboard system for a future pixel-art in
 
 ## v0.6 centered M2 mounts
 
+- **[Minimal fit-test kit and instructions](models/v06/fit-kit/README.md)**: [unsliced five-piece plate](models/v06/fit-kit/fit-kit-plate.3mf), [native Fusion model](models/v06/fit-kit/fit-kit-v06.f3d)
+
 - [Assembly review and compatibility limits](docs/assembly-review-v06.md)
 - [Native 480 mm Fusion assembly](models/v06/frame-assembly-v06.f3d), [STEP](models/v06/frame-assembly-v06.step), [revised panels, carriers and jig](models/v06/)
 - [Front view](models/v06/front.png), [revision script](fusion/ReviseCenteredM2V06.py), [geometric checks](docs/validation-v06.json)
