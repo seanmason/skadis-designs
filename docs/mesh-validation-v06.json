@@ -1,0 +1,101 @@
+[
+  {
+    "file": "models\\v06\\carrier-jig-240.stl",
+    "triangles": 1296,
+    "closed_edge_incidence": true,
+    "bounds_mm": [
+      232.0,
+      212.0,
+      5.0
+    ],
+    "volume_mm3": 49440.589
+  },
+  {
+    "file": "models\\v06\\Panel-lower-left.stl",
+    "triangles": 316860,
+    "closed_edge_incidence": true,
+    "bounds_mm": [
+      239.65,
+      249.65,
+      5.0
+    ],
+    "volume_mm3": 192186.673
+  },
+  {
+    "file": "models\\v06\\Panel-lower-right.stl",
+    "triangles": 316860,
+    "closed_edge_incidence": true,
+    "bounds_mm": [
+      239.65,
+      249.65,
+      5.0
+    ],
+    "volume_mm3": 192186.731
+  },
+  {
+    "file": "models\\v06\\Panel-upper-left.stl",
+    "triangles": 303900,
+    "closed_edge_incidence": true,
+    "bounds_mm": [
+      239.65,
+      239.65,
+      5.0
+    ],
+    "volume_mm3": 184410.79
+  },
+  {
+    "file": "models\\v06\\Panel-upper-right.stl",
+    "triangles": 303900,
+    "closed_edge_incidence": true,
+    "bounds_mm": [
+      239.65,
+      239.65,
+      5.0
+    ],
+    "volume_mm3": 184410.845
+  },
+  {
+    "file": "models\\v06\\PRINT-carrier-00-single.stl",
+    "triangles": 850,
+    "closed_edge_incidence": true,
+    "bounds_mm": [
+      20.0,
+      31.0,
+      18.4
+    ],
+    "volume_mm3": 4242.329
+  },
+  {
+    "file": "models\\v06\\PRINT-carrier-01-single.stl",
+    "triangles": 850,
+    "closed_edge_incidence": true,
+    "bounds_mm": [
+      20.0,
+      31.0,
+      18.4
+    ],
+    "volume_mm3": 4242.329
+  },
+  {
+    "file": "models\\v06\\PRINT-carrier-02-single.stl",
+    "triangles": 850,
+    "closed_edge_incidence": true,
+    "bounds_mm": [
+      20.0,
+      31.0,
+      18.4
+    ],
+    "volume_mm3": 4242.329
+  },
+  {
+    "file": "models\\v06\\PRINT-carrier-10-double.stl",
+    "triangles": 1328,
+    "closed_edge_incidence": true,
+    "bounds_mm": [
+      30.0,
+      31.0,
+      18.4
+    ],
+    "volume_mm3": 6502.571
+  }
+]

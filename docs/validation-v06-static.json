@@ -1,0 +1,117 @@
+{
+  "health": {
+    "healthy": true,
+    "fully_constrained_sketches": true,
+    "components": 143,
+    "timeline_features": 850,
+    "timeline_groups": 19
+  },
+  "static_collisions": [],
+  "hook_corridor_collisions": [
+    [
+      0,
+      "REFERENCE panel M2x20 000:1",
+      2.26656
+    ],
+    [
+      0,
+      "REFERENCE panel M2x20 010:1",
+      2.26656
+    ],
+    [
+      0,
+      "REFERENCE panel M2x20 020:1",
+      2.26656
+    ],
+    [
+      0,
+      "REFERENCE panel M2x20 000:2",
+      2.26656
+    ],
+    [
+      22,
+      "REFERENCE panel M2x20 100:1",
+      2.26656
+    ],
+    [
+      22,
+      "REFERENCE panel M2x20 100:2",
+      2.26656
+    ],
+    [
+      22,
+      "REFERENCE panel M2x20 100:3",
+      2.26656
+    ],
+    [
+      22,
+      "REFERENCE panel M2x20 100:4",
+      2.26656
+    ],
+    [
+      24,
+      "REFERENCE panel M2x20 101:1",
+      2.26656
+    ],
+    [
+      24,
+      "REFERENCE panel M2x20 101:2",
+      2.26656
+    ],
+    [
+      24,
+      "REFERENCE panel M2x20 101:3",
+      2.26656
+    ],
+    [
+      24,
+      "REFERENCE panel M2x20 101:4",
+      2.26656
+    ],
+    [
+      46,
+      "REFERENCE panel M2x20 000:3",
+      2.26656
+    ],
+    [
+      46,
+      "REFERENCE panel M2x20 010:2",
+      2.26656
+    ],
+    [
+      46,
+      "REFERENCE panel M2x20 020:2",
+      2.26656
+    ],
+    [
+      46,
+      "REFERENCE panel M2x20 000:4",
+      2.26656
+    ]
+  ],
+  "sampled_panel_and_screw_motion_collisions": [],
+  "frame_tool_collisions": [],
+  "frame_tool_envelopes": 0,
+  "front_protrusions": [],
+  "behind_wall": [],
+  "face_to_wall_mm": 42.0,
+  "hook_cavity_mm": 10.0,
+  "blade_lateral_clearance_mm": 0.39999999999999925,
+  "physical_fit_verified": false,
+  "hook_clearance_status": "6 mm corridor is deliberately retained as a failing compatibility check; do not interpret other passes as hook certification",
+  "limitations": [
+    "Continuous 6 mm wide hook columns are provisional, not measured hook meshes",
+    "Motion checked at seven axial offsets, not a continuous kinematic simulation",
+    "Metal hardware envelopes omit threads and manufacturer tolerances",
+    "No structural rating or large-wall engineering analysis"
+  ],
+  "parts_outside_module_array": [],
+  "panel_screw_station_count": 16,
+  "panel_whole_slot_counts": {
+    "Panel lower left:1": 288,
+    "Panel lower right:1": 288,
+    "Panel upper left:1": 276,
+    "Panel upper right:1": 276
+  },
+  "check_stage": "static"
+}

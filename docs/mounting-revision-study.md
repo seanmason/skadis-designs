@@ -16,6 +16,8 @@ A more substantial option replaces four individual hook slots per panel with sol
 
 ## Pending requirements
 
+Update 2026-10-31: the user selected the centered M2 (middle) option. See [v0.6 implementation and checks](assembly-review-v06.md). The following paragraph records the earlier decision state; filament and service load remain pending.
+
 The user has been asked whether to preserve every slot or accept four solid M3 mounting lands, and for the load target and intended filament. No answer has been received at the time of this study. These choices affect the full assembly and purchase specification.
 
 No allowable load is asserted. Strength qualification needs actual filament/print orientation and settings, screw-head measurements and preload, panel dead weight, accessory weight and lever arm, sustained creep duration/temperature, and tests of panel bearing/pull-through, registration pads, carriers, nuts and wall anchorage. A suitable next specimen is a complete mounting station loaded in vertical shear and outward pull, followed by a populated panel test; a flat coupon alone cannot qualify the complete load path.

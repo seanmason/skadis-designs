@@ -2,7 +2,15 @@
 
 An original Autodesk Fusion parametric pegboard system for a future pixel-art installation, printed on a Bambu Lab H2D.
 
-**Status: v0.5 stepped-seam CAD prototype and interface test parts. CAD validation is not physical validation.** No installation load rating, print-fit result, or universal IKEA accessory compatibility is claimed.
+**Status: v0.6 centered-M2 CAD prototype. CAD validation is not physical validation.** No installation load rating, print-fit result, or universal IKEA accessory compatibility is claimed.
+
+## v0.6 centered M2 mounts
+
+- [Assembly review and compatibility limits](docs/assembly-review-v06.md)
+- [Native 480 mm Fusion assembly](models/v06/frame-assembly-v06.f3d), [STEP](models/v06/frame-assembly-v06.step), [revised panels, carriers and jig](models/v06/)
+- [Front view](models/v06/front.png), [revision script](fusion/ReviseCenteredM2V06.py), [geometric checks](docs/validation-v06.json)
+
+The four screws on each panel move 1.25 mm to improve the surrounding front web. Carrier bores, nuts, retaining springs and jig holes follow; bearing pads remain on their original axes. The resulting open-sided support requires a printed load test. **The retained 6 mm hook-envelope check fails locally against the screw shanks**; actual hook fit remains unresolved. Do not mix v0.5 panels/carriers/jigs with v0.6 parts. Existing animations show v0.5.
 
 [Critical design review](docs/design-review-2026-10-29.md): the basis for the v0.5 prototype direction. Historical v0.4 files are preserved.
 
