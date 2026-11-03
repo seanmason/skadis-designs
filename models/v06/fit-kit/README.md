@@ -1,5 +1,7 @@
 # Minimal v0.6 fit kit
 
+For the prepared MK4S/MMU3 0.4 mm print, open **skadis-fit-mk4s-04.3mf** in PrusaSlicer. See **mk4s-print-record.md** for settings and print status.
+
 Open **fit-kit-plate.3mf** in Bambu Studio as geometry, select your H2D and intended filament, and inspect the slice before printing. This is an **unsliced, generic 3MF** containing five separate objects, not a configured Bambu project or G-code. No machine, nozzle, material, support or speed settings are included.
 
 ## Print contents
