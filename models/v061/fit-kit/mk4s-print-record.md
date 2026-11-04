@@ -8,4 +8,4 @@ Final CLI estimate: 56m32s, 14.30 g. GUI rounds to 57 minutes. Configured projec
 
 Connect reports the printer FINISHED, with 0.4 mm high-flow nozzle and no diameter mismatch. The standard 0.4 mm profile is used conservatively. User confirmed plate clear and slot 1 loaded.
 
-Status: start not verified. The Send to Connect dialog is open on the correct new 57-minute job. Desktop control rejects clicks inside the embedded webview as a different process, including after activation/retry; keyboard navigation did not resolve it. User asked to choose Set ready and print now and Confirm. No automatic print start is claimed.
+Status: launch verified. User completed the Connect launch; file transfer completed. A printer firmware recommendation temporarily held startup; Continue was selected without updating firmware. Connect then reported PRINTING for skadis-v061-mk4s-side_0.4n_0.2mm_PLA_MK4SMMU3_57m.gcode, with nozzle heating (69 toward 170 C startup target), bed heating (27 toward 60 C), and 55 minutes remaining. First-layer quality and completed physical print are not yet verified.
