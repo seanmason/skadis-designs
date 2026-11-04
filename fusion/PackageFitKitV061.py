@@ -20,6 +20,7 @@ for idx,path in enumerate(sorted(OUT.glob('0*.stl')),1):
  # Carrier geometry retained; board socket clearance changed.
  # Turn carrier 180 degrees about Y, rail keys toward bed. Other parts face down.
  if idx==3:ts=[[(-x,y,-z) for x,y,z in t] for t in ts]
+ if idx==4:ts=[[(z,y,-x) for x,y,z in t] for t in ts] # Side-print hook; support reaches from bed
  lo=[min(p[k] for t in ts for p in t) for k in range(3)]
  ts=[[tuple(p[k]-lo[k] for k in range(3)) for p in t] for t in ts]
  vertices=[];lookup={};faces=[]
@@ -42,5 +43,6 @@ with zipfile.ZipFile(OUT/'fit-kit-plate.3mf','w',zipfile.ZIP_DEFLATED) as z:
  z.writestr('3D/3dmodel.model',E.tostring(model,encoding='utf-8',xml_declaration=True))
 (OUT/'mesh-validation.json').write_text(json.dumps({'parts':report,'carrier_geometry_retained':True,'layout':'unsliced; five objects; nominal 95 x 56 mm occupied bounding box','slicer_settings_included':False},indent=2))
 print(json.dumps(report));print('Closed meshes verified. Unsliced 3MF includes two hook tile copies.')
+
 
 

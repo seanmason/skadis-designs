@@ -1,6 +1,6 @@
 # v0.6.1 hook and snug-fit revision
 
-Supersedes the v0.6 fit kit for the next physical trial. Open fit-kit-v061.f3d in Fusion for editable native features, or fit-kit-plate.3mf as unsliced geometry. No new print was started. The full 480 mm v0.6 assembly remains the historical baseline pending this fit trial.
+Supersedes the v0.6 fit kit for the next physical trial. Open fit-kit-v061.f3d in Fusion for editable native features, or fit-kit-plate.3mf as unsliced geometry. See mk4s-print-record.md for the latest slicing and launch status. The full 480 mm v0.6 assembly remains the historical baseline pending this fit trial.
 
 ## Changes
 
@@ -18,8 +18,9 @@ The hook removes the inaccessible latch. It does not positively lock against upw
 
 ## Printing and checks
 
-Five objects: mounting coupon, seam mate, unchanged carrier, two new hook tiles. The generic 3MF is unsliced. The previous v0.6 G-code prints the old snap tiles and must not be reused for this revision. Inspect support beneath the carrier and beneath the hook toe; remove it carefully before evaluating fit. Side-oriented tile printing is another trial option if toe support scars cause binding.
+Five objects: mounting coupon, seam mate, unchanged carrier, two new hook tiles. The generic 3MF is unsliced. The previous v0.6 G-code prints the old snap tiles and must not be reused for this revision. Inspect support beneath the carrier and beneath the hook toe; remove it carefully before evaluating fit. The current plate side-orients the tiles, allowing bed-only support under the hooks; inspect and remove those supports before testing.
 
 Fusion reports 133 healthy timeline features and fully constrained sketches. All four exported STL meshes have closed edges. The CAD check sampled 164 board/neighbor collision tests along straight insertion and lowering, with no collisions, and confirmed that a straight pull is blocked while seated. Carrier/board and seam have no nominal solid overlap. This is a sampled geometric check, not a physical fit or strength test.
 
 First test the two board pieces and carrier fit, then one hook tile, then a second tile in the same column. Record insertion force, wobble, lifting grip, support cleanup, and whether the top-down removal order is acceptable.
+
