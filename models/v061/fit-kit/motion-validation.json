@@ -1,0 +1,9 @@
+{
+  "motion_samples": 164,
+  "collisions": [],
+  "straight_pull_blocked_overlap_mm3": 4.564708964692854,
+  "carrier_panel_overlap_mm3": 0,
+  "seam_overlap_mm3": 0,
+  "installation": "bottom upward; remove top downward; lift 3.5 mm before pulling",
+  "physical_fit_verified": false
+}

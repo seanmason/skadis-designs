@@ -1,0 +1,51 @@
+{
+  "parts": [
+    {
+      "part": "01-mount-coupon.stl",
+      "triangles": 12150,
+      "closed_edges": true,
+      "instances": 1,
+      "bounds_mm": [
+        39.85,
+        49.85,
+        5.0
+      ]
+    },
+    {
+      "part": "02-seam-mate.stl",
+      "triangles": 4812,
+      "closed_edges": true,
+      "instances": 1,
+      "bounds_mm": [
+        39.85,
+        19.85,
+        5.0
+      ]
+    },
+    {
+      "part": "03-single-carrier.stl",
+      "triangles": 850,
+      "closed_edges": true,
+      "instances": 1,
+      "bounds_mm": [
+        20.0,
+        31.0,
+        18.4
+      ]
+    },
+    {
+      "part": "04-two-pixel-tile.stl",
+      "triangles": 84,
+      "closed_edges": true,
+      "instances": 2,
+      "bounds_mm": [
+        9.6,
+        19.6,
+        9.6
+      ]
+    }
+  ],
+  "carrier_geometry_retained": true,
+  "layout": "unsliced; five objects; nominal 95 x 56 mm occupied bounding box",
+  "slicer_settings_included": false
+}

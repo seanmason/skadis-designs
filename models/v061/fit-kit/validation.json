@@ -1,0 +1,48 @@
+{
+  "health": {
+    "healthy": true,
+    "fully_constrained_sketches": true,
+    "components": 8,
+    "timeline_features": 133,
+    "timeline_groups": 0
+  },
+  "parts": [
+    {
+      "file": "01-mount-coupon.stl",
+      "volume_mm3": 6079.2457484279985,
+      "bounds_mm": [
+        39.85,
+        49.849999999999994,
+        5.0
+      ]
+    },
+    {
+      "file": "02-seam-mate.stl",
+      "volume_mm3": 2245.199639793855,
+      "bounds_mm": [
+        39.85,
+        19.85,
+        5.0
+      ]
+    },
+    {
+      "file": "03-single-carrier.stl",
+      "volume_mm3": 4241.559017770897,
+      "bounds_mm": [
+        20.0,
+        31.0,
+        18.400000000000002
+      ]
+    },
+    {
+      "file": "04-two-pixel-tile.stl",
+      "volume_mm3": 510.35200000000015,
+      "bounds_mm": [
+        9.6,
+        19.6,
+        9.6
+      ]
+    }
+  ],
+  "physical_fit_verified": false
+}
